@@ -1,0 +1,38 @@
+{
+  "tool": "KiCadRoutingTools smooth_octolinear_chains",
+  "tool_revision": "fd59a050e258581d5938c4d9456bbfeb13240e67",
+  "segments_before": 352,
+  "segments_after": 257,
+  "clearance_mm": 0.2,
+  "board_edge_clearance_mm": 0.3,
+  "protected": "all locked tracks + PH_IN/PH_GUARD/REF_2V048",
+  "passes": [
+    {
+      "nets": 14,
+      "nets_skipped_large": 0,
+      "chains": 58,
+      "spans": 27,
+      "segs_removed": 150,
+      "segs_added": 54,
+      "saved_mm": 8.4375,
+      "chains_reverted": 0
+    },
+    {
+      "nets": 14,
+      "nets_skipped_large": 0,
+      "chains": 51,
+      "spans": 0,
+      "segs_removed": 0,
+      "segs_added": 0,
+      "saved_mm": 0.0,
+      "chains_reverted": 0
+    }
+  ],
+  "net_reverted_after_native_drc": "PH_VCM: original path retained to honor net-specific guard-cell keepout",
+  "saved_length_mm": 8.2032,
+  "final_native_drc_violations": 0,
+  "final_unconnected_pads": 0,
+  "final_schematic_parity_issues": 0,
+  "final_removed_segments": 95,
+  "final_accepted_smoothing_spans": 26
+}

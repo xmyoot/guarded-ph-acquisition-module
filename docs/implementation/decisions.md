@@ -24,3 +24,9 @@
 The reference/rail monitor is a broad fault diagnostic, not traceable calibration. Firmware stores calibration in ESP32 NVS and emits raw readings even before valid pH calibration. One-second display averaging remains a host application task; the sketch logs individual conversions.
 
 No cost or live-stock guarantee is attached to the BOM. Reel/tape carrier alternatives (for example ADS112C04IPW vs IPWR, REF3220AIDBVR vs AIDBVT) require matching package and electrical grade; no substitute is automatically approved for the high-impedance buffer or connector.
+
+## Portfolio review correction — 21 October 2026
+
+KiCadRoutingTools octolinear smoothing was applied with 0.20 mm clearance and 0.30 mm edge clearance. Final routed segment count fell from 352 to 257 (95 fewer), with 8.203 mm shorter total track length. All locked tracks, the input/guard and reference routes were preserved. A candidate PH_VCM shortcut violated the net-specific guard-cell rule during native DRC and was reverted; the final output passes native DRC/parity and the independent guard/paste audit.
+
+The old BNC model used Box/Cylinder VRML primitives. Its cylinders failed to display in the initial KiCad render, leaving only a white rectangular body. It was replaced with explicit face meshes representing the insulated housing, metal shoulder/threaded section, bayonet barrel, opposed lugs, open socket, contact and PCB tails. Overall 34.7 mm length, 14.5 mm width, housing height and pin positions follow the reviewed Rev E drawing. Small thread/bore/contact details are illustrative. This improves visualization; it is not first-article mechanical validation.

@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/hector/Documents/KiCAD_Projects/IoT_Soil_Testing_Device/hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_sch")
-		(date "2026-10-21T07:18:19")
+		(date "2026-10-21T07:33:13")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")

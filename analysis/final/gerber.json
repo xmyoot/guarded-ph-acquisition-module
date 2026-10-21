@@ -15,7 +15,7 @@
     "drill_files": 2,
     "total_holes": 59,
     "total_flashes": 556,
-    "total_draws": 8294
+    "total_draws": 7382
   },
   "completeness": {
     "found_layers": [
@@ -291,11 +291,11 @@
       "units": "mm",
       "aperture_count": 8,
       "flash_count": 57,
-      "draw_count": 1964,
+      "draw_count": 1876,
       "region_count": 1,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Copper,L2,Bot",
@@ -333,7 +333,7 @@
       "region_count": 1,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Soldermask,Bot",
@@ -356,7 +356,7 @@
       "region_count": 0,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Paste,Bot",
@@ -373,7 +373,7 @@
       "region_count": 1,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Legend,Bot",
@@ -396,7 +396,7 @@
       "region_count": 0,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Profile,NP"
@@ -417,11 +417,11 @@
       "units": "mm",
       "aperture_count": 22,
       "flash_count": 159,
-      "draw_count": 4551,
-      "region_count": 5,
+      "draw_count": 3727,
+      "region_count": 6,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Copper,L1,Top",
@@ -464,7 +464,7 @@
       "region_count": 1,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Soldermask,Top",
@@ -487,7 +487,7 @@
       "region_count": 0,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Paste,Top",
@@ -510,7 +510,7 @@
       "region_count": 6,
       "x2_attributes": {
         "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
-        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "CreationDate": "2026-10-21T07:33:16-07:00",
         "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
         "SameCoordinates": "Original",
         "FileFunction": "Legend,Top",
@@ -542,7 +542,7 @@
         2
       ],
       "x2_attributes": {
-        "CreationDate": "2026-10-21T07:11:35-07:00",
+        "CreationDate": "2026-10-21T07:33:17-07:00",
         "GenerationSoftware": "Kicad,Pcbnew,10.0.7",
         "FileFunction": "NonPlated,1,2,NPTH"
       }
@@ -579,7 +579,7 @@
         2
       ],
       "x2_attributes": {
-        "CreationDate": "2026-10-21T07:11:35-07:00",
+        "CreationDate": "2026-10-21T07:33:17-07:00",
         "GenerationSoftware": "Kicad,Pcbnew,10.0.7",
         "FileFunction": "Plated,1,2,PTH"
       }
@@ -615,7 +615,7 @@
   "job_file": {
     "generator": "Pcbnew 10.0.7",
     "vendor": "KiCad",
-    "creation_date": "2026-10-21T07:11:34-07:00",
+    "creation_date": "2026-10-21T07:33:16-07:00",
     "board_width_mm": 50.05,
     "board_height_mm": 35.05,
     "layer_count": 2,
@@ -794,18 +794,18 @@
       "output/fabrication/Soil_pH_AFE-job.gbrjob"
     ],
     "source_hashes": {
-      "output/fabrication/Soil_pH_AFE-B_Cu.gbl": "1a6215f3850779014a789c03a071ea2c7e08c8fe1f0984c5df242739e601c91c",
-      "output/fabrication/Soil_pH_AFE-B_Mask.gbs": "37c9a49435883ccf2e84fd25a36512690147d0c77c9427af1c98d1bb1888538d",
-      "output/fabrication/Soil_pH_AFE-B_Paste.gbp": "9c5b4650d1dd3ca5c81e2a96f932f4730bba93c10de00321c6acf2816f5a9caf",
-      "output/fabrication/Soil_pH_AFE-B_Silkscreen.gbo": "eed9d35b0b58036015248b90663a2ab69fee768e55979e1d3b2fae85afa4ab96",
-      "output/fabrication/Soil_pH_AFE-Edge_Cuts.gm1": "7b28d4b38acf1d75926c64d512ac8301f8f8468ac8fd31570e761335fe197dc2",
-      "output/fabrication/Soil_pH_AFE-F_Cu.gtl": "0c8c60b02df742de3800e20950bdd5c56b2f51b520fc105a1bdd4e40aa312afa",
-      "output/fabrication/Soil_pH_AFE-F_Mask.gts": "580ee26e501b531b46a183af466fef6f05969564d0668f3721c0db36f0c068e3",
-      "output/fabrication/Soil_pH_AFE-F_Paste.gtp": "aabc0d186947d9398886cda6f3b59eab61d21476204138af071f25857aed5aad",
-      "output/fabrication/Soil_pH_AFE-F_Silkscreen.gto": "9ca8fcb0948c9265592da564944b102aabdceb04c59e7877501559cb90c4bf94",
-      "output/fabrication/Soil_pH_AFE-NPTH.drl": "9de669ac8d2e179a5f0d24767418cc0bfc335860d23a6cd3f466a0bf2b2c28e3",
-      "output/fabrication/Soil_pH_AFE-PTH.drl": "350aa7e4d18287b76ee1b6f95adf28b852b4f19d5a99c3da2c8baac19a65fdf9",
-      "output/fabrication/Soil_pH_AFE-job.gbrjob": "191e5f0de1180aa3290709818c5bc09377ad0de604d19f04438dbcde3b403163"
+      "output/fabrication/Soil_pH_AFE-B_Cu.gbl": "28c0ce7395dafa297e03fddd232f0dfca640c2b1bc5ccb6059df00b83827dd7f",
+      "output/fabrication/Soil_pH_AFE-B_Mask.gbs": "cbdd593bdf7ce55adf922fbaf8b9d15644443aa50319434bfd22cf5d70846c01",
+      "output/fabrication/Soil_pH_AFE-B_Paste.gbp": "0ad1c5860c61a6d94fd6266f699b06da09d91a3983ad740de8569b7b67f47989",
+      "output/fabrication/Soil_pH_AFE-B_Silkscreen.gbo": "620d7fce176be66bf4a77a7b9b2f5d91de1245d2ed48bcf6b039ffa89b89cf36",
+      "output/fabrication/Soil_pH_AFE-Edge_Cuts.gm1": "034d68691033b2c72a4324f1132f9fe9771a68f91e445d77964230d015904bbf",
+      "output/fabrication/Soil_pH_AFE-F_Cu.gtl": "666e13d7704ce875dfef00e5e763b0dc91a6f264ded546e9a3966a0dde043273",
+      "output/fabrication/Soil_pH_AFE-F_Mask.gts": "6c35a24e071f104249a6bff55cad995847a029e9ea2f084c70a84ff2ec20ac13",
+      "output/fabrication/Soil_pH_AFE-F_Paste.gtp": "ec2a3aef925980db89402b95dcd8cfca6d68125cebbafd79dc57a91e142e1a32",
+      "output/fabrication/Soil_pH_AFE-F_Silkscreen.gto": "a645817cb8737bb018e8f1d2da70dced281eb1d4e148dc786a7e0e48f45268c1",
+      "output/fabrication/Soil_pH_AFE-NPTH.drl": "c2738dad05552ba0d0b5e2a8de9868ba4ab05b8bc5c33a78fc3db8641173a0c5",
+      "output/fabrication/Soil_pH_AFE-PTH.drl": "67dcfcba626c164271cec202902d63e4b2dbda3160afe09891203a406adc3c9a",
+      "output/fabrication/Soil_pH_AFE-job.gbrjob": "506f13929ec060c90caea34d4c0349fd1baa3ed77b2a61e90937fc7a758df747"
     },
     "run_id": "20261021T141244Z-e0e7ba",
     "config_hash": null,

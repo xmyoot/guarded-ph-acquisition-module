@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "produced_for_run_id": "final-2026-10-21",
-  "produced_at": "2026-10-21T07:20:00-07:00",
+  "produced_at": "2026-10-21T14:33:21.228619+00:00",
   "findings": [
     {
       "detector": "deep_review",
@@ -186,6 +186,40 @@
         "U5"
       ],
       "finding_id": "deep_review:1838664d556b"
+    },
+    {
+      "detector": "deep_review",
+      "category": "route_cleanup",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "Route simplification preserves critical copper and passes native DRC",
+      "evidence": {
+        "components": [
+          "U1",
+          "U2",
+          "U3"
+        ],
+        "nets": [
+          "ADC_P",
+          "ADC_N"
+        ],
+        "computation": {
+          "description": "KiCadRoutingTools octolinear cleanup with native guard-cell correction and final raw segment counts",
+          "script": "scripts/smooth_routes.py",
+          "result": "352 \u2192 257 track segments; 95 removed; 8.2032 mm shorter; PH_VCM shortcut reverted; final DRC/parity 0"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "U2",
+        "U3"
+      ],
+      "nets": [
+        "ADC_P",
+        "ADC_N"
+      ],
+      "finding_id": "deep_review:593a53820cdc"
     }
   ],
   "quarantined": []

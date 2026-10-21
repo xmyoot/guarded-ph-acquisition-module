@@ -19,3 +19,4 @@
 !routing_adc_n.json
 !stages/
 !stages/Soil_pH_AFE_placed.kicad_pcb
+!route_cleanup.json

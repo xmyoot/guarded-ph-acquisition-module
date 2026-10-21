@@ -1,2 +1,2 @@
-Design Changes: pcb (none) — 0 changes
+Design Changes: pcb (minor) — 0 changes
   No changes detected.

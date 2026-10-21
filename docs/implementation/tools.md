@@ -1,6 +1,6 @@
 # Tool provenance and reproduction
 
-The authoritative artifacts are the reviewed native KiCad files, not the construction helpers. Open hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_pro in KiCad 10 with standard 3D libraries installed. All symbols/footprints needed for editing/manufacture are project-local; only standard 3D model paths use KICAD10_3DMODEL_DIR. Custom BNC VRML is local and illustrative.
+The authoritative artifacts are the reviewed native KiCad files, not the construction helpers. Open hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_pro in KiCad 10 with standard 3D libraries installed. All symbols/footprints needed for editing/manufacture are project-local; only standard 3D model paths use KICAD10_3DMODEL_DIR. Custom BNC VRML is local and drawing-derived; threads/socket/lugs are visual approximations.
 
 - KiCad CLI 10.0.7: native ERC, schematic-parity DRC, netlist, Gerber/drill/placement/PDF/3D exports.
 - kicad-happy revision `6a91aaaea124152b2923326c1cf77278e0999cd4`: schematic, full PCB, cross-domain, EMC, thermal, Gerber and lifecycle review. https://github.com/aklofas/kicad-happy
@@ -27,3 +27,9 @@ Construction helpers under scripts/development are archived, machine-specific im
 The repository omits local runtime environments, raw client screenshots, third-party datasheet PDFs/text, prebuilt binaries and intermediate routing stages (except the geometry baseline needed for audit). Manufacturer URLs, hashes and partial pin extraction records are retained. Retrieve PDFs from the source register for a new datasheet review; partial extraction is not a complete behavioral model.
 
 Run `python3 scripts/package_release.py` after review to regenerate the fabrication ZIP and controlled-file hashes.
+
+## Visual cleanup helpers
+
+`scripts/smooth_routes.py` uses `smooth_octolinear_chains` from the documented KiCadRoutingTools revision (set ROUTING_TOOLS). It preserves locked copper and excludes the input, guard, probe-reference and precision reference nets. Native KiCad refill/DRC is required after any routing mutation; tool geometry alone missed the custom guard-cell restriction during the trial.
+
+`scripts/model_bnc.py` generates the project-local drawing-derived BNC face mesh. `scripts/render_review.py` regenerates the independent Gerber previews and a high-quality KiCad rendering framed to show the complete protruding connector. Run it after `export_release.py`, then regenerate the release ZIP/hashes. Model details are illustrative and must not be used as manufacturing tolerances.

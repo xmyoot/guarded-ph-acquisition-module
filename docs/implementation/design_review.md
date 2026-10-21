@@ -43,7 +43,7 @@ The independent audit is scripts/validate_release.py; its full record is analysi
 | U3 REF3220AIDBVT | SBVS058D p.3 pin table and enable/startup guidance. Both ground pins connected; output force/sense terminate at C11. The sense/force ground connections use the shared local plane and are not separately Kelvin-routed. Enabled only after 3.3 V supervisor release. |
 | U4 TPS7A2033PDBVR | SBVS338H p.4 DBV pin map; p.6 thermal data and output-capacitance requirements. IN/EN to 5 V, ground pin2, NC pin4, output pin5. Nominal 4.7 µF output selected for ≥1 µF effective requirement; manufacturer bias curves/actual stability remain qualification items. |
 | U5 TPS3839K33DBZT | SBVS193D DBZ pin map and threshold/delay table. Ground1, push-pull reset2, supply3. 2.93 V nominal threshold, 120–350 ms delay; READY enables reference/releases ADC reset. R8 controls initial undefined low-voltage interval. No unsafe assumption that reset release means reference settled: firmware waits and diagnoses. |
-| J1 | Amphenol 031-5431-1010 Rev E drawing. Signal/shell offset 2.54 mm; fork positions ±5.08 mm and −5.08 mm. Insulated BNC, deliberate left-edge overhang. Holes enlarged to 1.0/2.1 mm. All shell/fork pads connect to PH_VCM. Detailed connector/enclosure fit is pending real-part trial; 3D body is only an envelope. |
+| J1 | Amphenol 031-5431-1010 Rev E drawing. Signal/shell offset 2.54 mm; fork positions ±5.08 mm and −5.08 mm. Insulated BNC, deliberate left-edge overhang. Holes enlarged to 1.0/2.1 mm. All shell/fork pads connect to PH_VCM. Detailed connector/enclosure fit is pending real-part trial; 3D connector visualization is drawing-derived; small details are illustrative, not a vendor tolerance model. |
 | J2 | JST PH drawing: 2 mm six-position header, 0.75 mm PCB holes. Pin1=5 V, 2/5=ground, 3=SDA, 4=SCL, 6=NC. Cable pin mapping must be checked from PCB numbering, not mirrored mating view. |
 
 Passive inventory, sizes and pin nets match the final BOM and frozen footprints. R1/R2 are 1 kΩ 0.1% parts; C13 is 10 nF C0G; R3/R4 are 4.7 kΩ pullups through removable R5/R6 0 Ω links. All ceramic supply capacitors are X7R with specified voltage ratings. Manufacturer curves and production availability were not exhaustively qualified for every passive; correct assembly and effective capacitance remain first-article checks.
@@ -90,6 +90,14 @@ The earlier review found vias overlapping C4/C7 solder-paste apertures. The offe
 Stale architecture-only README, stale manufacturing exports, a 0 Ω BOM tolerance note, missing implementation/bring-up instructions and machine-specific export setup were corrected before publication. Intermediate board variants were removed from the main CAD folder. The raw client screenshot folder is excluded from public publication; the technical requirement summary remains.
 
 A kicad-happy cache run reused the earlier PCB result while updating its source hash. Fresh explicit final output files were used to avoid relying on that cache. Generic prior-diff reported no changes, which does not capture these local route edits; that delta result is not accepted as proof. Native final checks and the independent geometric audit are the final basis. No earlier deep-review file existed.
+
+## Routing and model correction — 21 October 2026
+
+The user identified staircase routing and the box-only BNC preview. KiCadRoutingTools smoothing reduced 352 segments to 257, shortening copper by 8.203 mm while retaining all locked analog tracks and the original PH_VCM path at the guard cell. A trial shortcut on that net failed the native custom keepout rule and was reverted before the final clean DRC. No design-rule relaxations were introduced. Vias remain 47, with no paste intersections, and PH_IN remains 4.143 mm/top-only/zero vias.
+
+The BNC preview now uses explicit face meshes for the housing, threaded metal section, bayonet lugs, socket and contact, rather than unsupported/invisible cylinder primitives. Major envelope/pin dimensions follow the same Rev E drawing; detailed fit/tolerances remain unqualified. The white housing is part of this insulated connector; the earlier missing barrel was a rendering/model defect.
+
+Native exports and affected PCB, Gerber, cross-domain, EMC and thermal analyses were regenerated. Final automated findings remain the same categories triaged above. The generic finding delta tool again reports no finding changes; it does not describe route simplification. Direct analyzer track counts and analysis/route_cleanup.json provide the geometry delta. Fresh schematic ERC and unchanged pin-net audit cover the unchanged circuit.
 
 ## Coverage, lifecycle and skipped analyses
 

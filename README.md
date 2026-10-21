@@ -6,7 +6,7 @@ A 50 × 35 mm, two-layer pH analog front end for an external ESP32-S3 host. The 
 
 ![KiCad assembly rendering](output/review/assembly_3d.png)
 
-*CAD rendering, not a photograph. The BNC body is a drawing-derived clearance envelope, not a detailed vendor model.*
+*CAD rendering, not a photograph. The BNC connector is a drawing-derived visualization with threaded barrel, bayonet lugs and socket; small details are approximate, not vendor mechanical CAD.*
 
 ## Engineering focus
 
@@ -15,6 +15,7 @@ A 50 × 35 mm, two-layer pH analog front end for an external ESP32-S3 host. The 
 - Matched 1 kΩ input resistors and a 10 nF C0G differential capacitor; calculated pole 7.96 kHz.
 - Supervisor-controlled reference startup, local test access, removable I²C pullups, and diagnostic/calibration firmware.
 - Frozen project symbols and footprints; complete Gerber, drill, placement, and BOM outputs.
+- Route cleanup reduced track segments from 352 to 257 and removed 8.203 mm of unnecessary copper while preserving locked analog geometry.
 
 ## Review status
 

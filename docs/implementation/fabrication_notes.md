@@ -19,7 +19,7 @@
 
 Gerber X2 includes F/B copper, solder mask, paste, silkscreen and Edge.Cuts. Excellon files separate plated and nonplated holes; both must be supplied. PDF drill maps are visual aids. Empty bottom paste is expected. Bottom silkscreen carries the insulated-BNC/cleanliness notes. Do not rescale the Gerbers to match the nominal outline.
 
-The BNC intentionally projects beyond the left board edge. Its drawing-derived VRML envelope is a visualization aid, not a mechanical acceptance model. Confirm panel, cable, shell insulation, fork solderability and first-article fit with real parts. FID3 has 0.75 mm edge clearance to its footprint; panel-level fiducials/rails may be needed for assembly equipment. Placement CSV coordinates and rotations must be checked in the assembler's viewer against the top assembly drawing; they are native KiCad conventions, not a turnkey machine program.
+The BNC intentionally projects beyond the left board edge. Its drawing-derived VRML connector model includes the threaded barrel, lugs, socket and housing, but remains a visualization aid rather than a tolerance-qualified mechanical acceptance model. Confirm panel, cable, shell insulation, fork solderability and first-article fit with real parts. FID3 has 0.75 mm edge clearance to its footprint; panel-level fiducials/rails may be needed for assembly equipment. Placement CSV coordinates and rotations must be checked in the assembler's viewer against the top assembly drawing; they are native KiCad conventions, not a turnkey machine program.
 
 ## Assembly
 

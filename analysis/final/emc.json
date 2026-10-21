@@ -8,7 +8,7 @@
     ],
     "source_hashes": {
       "analysis/final/schematic.json": "f0605bf7697b8c4e09724a25a8d61fd082d5b9c2d696c200f7bd8a225dbad738",
-      "analysis/final/pcb.json": "c77463c2eb420f95243f8907745895ba3ce867071742e51ae4a0399315b2b8da"
+      "analysis/final/pcb.json": "c349ab556742915bc1357113674a4b2b19d5da9f6da5a9bed489294c33f9a772"
     },
     "run_id": "20261021T141244Z-e0e7ba",
     "config_hash": null,
@@ -21,7 +21,7 @@
       },
       "pcb": {
         "path": "analysis/final/pcb.json",
-        "sha256": "c77463c2eb420f95243f8907745895ba3ce867071742e51ae4a0399315b2b8da",
+        "sha256": "c349ab556742915bc1357113674a4b2b19d5da9f6da5a9bed489294c33f9a772",
         "schema_version": "1.4.0",
         "run_id": "20261021T141244Z-e0e7ba"
       }
@@ -526,7 +526,7 @@
       "rule_id": "DP-001",
       "confidence": "deterministic",
       "title": "differential diff pair skew approaching limit",
-      "description": "Differential pair ADC_P/ADC_N has 7.2mm length mismatch (39.3 ps skew). differential limit is 50 ps.",
+      "description": "Differential pair ADC_P/ADC_N has 7.0mm length mismatch (38.4 ps skew). differential limit is 50 ps.",
       "components": [
         "C13",
         "U2"
@@ -887,7 +887,7 @@
     "total_components": 39,
     "total_nets": 22
   },
-  "elapsed_s": 0.003,
+  "elapsed_s": 0.002,
   "audience_summary": {
     "designer": {
       "total_findings": 19,
