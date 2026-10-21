@@ -1,0 +1,3 @@
+# Preserve native manufacturing exports and their generator formatting.
+output/** -whitespace
+*.csv -whitespace

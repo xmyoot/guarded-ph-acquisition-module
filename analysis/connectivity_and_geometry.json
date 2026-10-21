@@ -1,0 +1,331 @@
+{
+  "component_count": 39,
+  "board_footprints": 44,
+  "all_native_pad_nets_match": true,
+  "pad_net_errors": [],
+  "PH_IN_length_mm": 4.143,
+  "PH_IN_top_only": true,
+  "PH_IN_via_count": 0,
+  "critical_guard_geometry_preserved": true,
+  "foreign_zone_copper_under_input": [],
+  "via_paste_overlaps": [],
+  "via_count": 47,
+  "track_widths": [
+    0.2,
+    0.25,
+    0.35,
+    0.4
+  ],
+  "pin_checks": [
+    {
+      "ref": "U1",
+      "MPN": "LMP91200MTX/NOPB",
+      "source": "LMP91200.pdf",
+      "page": 3,
+      "pins_checked": 16
+    },
+    {
+      "ref": "U2",
+      "MPN": "ADS112C04IPWR",
+      "source": "ADS112C04.pdf",
+      "page": 3,
+      "pins_checked": 16
+    },
+    {
+      "ref": "U3",
+      "MPN": "REF3220AIDBVT",
+      "source": "REF3220.pdf",
+      "page": 3,
+      "pins_checked": 6
+    },
+    {
+      "ref": "U4",
+      "MPN": "TPS7A2033PDBVR",
+      "source": "TPS7A20.pdf",
+      "page": 4,
+      "pins_checked": 5
+    },
+    {
+      "ref": "U5",
+      "MPN": "TPS3839K33DBZT",
+      "source": "TPS3839.pdf",
+      "page": 5,
+      "pins_checked": 3
+    }
+  ],
+  "components": [
+    {
+      "reference": "C9",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0805_2012Metric",
+      "MPN": "GRM21BR71E475KA73L"
+    },
+    {
+      "reference": "TP3",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "TP6",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "R6",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:R_0603_1608Metric",
+      "MPN": "CRCW06030000Z0EA"
+    },
+    {
+      "reference": "U5",
+      "pads": 3,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:SOT-23",
+      "MPN": "TPS3839K33DBZT"
+    },
+    {
+      "reference": "C2",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71C105KA12D"
+    },
+    {
+      "reference": "J2",
+      "pads": 6,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical",
+      "MPN": "B6B-PH-K-S(LF)(SN)"
+    },
+    {
+      "reference": "C6",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71H104KA93D"
+    },
+    {
+      "reference": "U2",
+      "pads": 16,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TSSOP-16_4.4x5mm_P0.65mm",
+      "MPN": "ADS112C04IPWR"
+    },
+    {
+      "reference": "R1",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:R_0603_1608Metric",
+      "MPN": "TNPW06031K00BEEA"
+    },
+    {
+      "reference": "R3",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:R_0603_1608Metric",
+      "MPN": "CRCW06034K70FKEA"
+    },
+    {
+      "reference": "C1",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_1206_3216Metric",
+      "MPN": "GRM31CR71C106KA12L"
+    },
+    {
+      "reference": "R4",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:R_0603_1608Metric",
+      "MPN": "CRCW06034K70FKEA"
+    },
+    {
+      "reference": "TP8",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "TP10",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "TP11",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "TP5",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "C10",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0805_2012Metric",
+      "MPN": "GRM21BR71E475KA73L"
+    },
+    {
+      "reference": "J1",
+      "pads": 4,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:BNC_031-5431-1010",
+      "MPN": "031-5431-1010"
+    },
+    {
+      "reference": "C3",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71H104KA93D"
+    },
+    {
+      "reference": "C8",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71H104KA93D"
+    },
+    {
+      "reference": "C7",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71C105KA12D"
+    },
+    {
+      "reference": "C13",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM1885C1H103JA01D"
+    },
+    {
+      "reference": "U3",
+      "pads": 6,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:SOT-23-6",
+      "MPN": "REF3220AIDBVT"
+    },
+    {
+      "reference": "R8",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:R_0603_1608Metric",
+      "MPN": "CRCW0603100KFKEA"
+    },
+    {
+      "reference": "C12",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71H104KA93D"
+    },
+    {
+      "reference": "U1",
+      "pads": 16,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TSSOP-16_4.4x5mm_P0.65mm",
+      "MPN": "LMP91200MTX/NOPB"
+    },
+    {
+      "reference": "TP2",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "R2",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:R_0603_1608Metric",
+      "MPN": "TNPW06031K00BEEA"
+    },
+    {
+      "reference": "R5",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:R_0603_1608Metric",
+      "MPN": "CRCW06030000Z0EA"
+    },
+    {
+      "reference": "C4",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71H104KA93D"
+    },
+    {
+      "reference": "R7",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:R_0603_1608Metric",
+      "MPN": "CRCW060310K0FKEA"
+    },
+    {
+      "reference": "TP9",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "TP1",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "TP7",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    },
+    {
+      "reference": "C5",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71H104KA93D"
+    },
+    {
+      "reference": "U4",
+      "pads": 5,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:SOT-23-5",
+      "MPN": "TPS7A2033PDBVR"
+    },
+    {
+      "reference": "C11",
+      "pads": 2,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:C_0603_1608Metric",
+      "MPN": "GRM188R71C105KA12D"
+    },
+    {
+      "reference": "TP4",
+      "pads": 1,
+      "all_pad_nets_match": true,
+      "footprint": "Soil_pH:TestPoint_Pad_D1.0mm",
+      "MPN": "PCB_FEATURE"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "produced_for_run_id": "final-2026-10-21",
+  "produced_at": "2026-10-21T07:20:00-07:00",
+  "findings": [
+    {
+      "detector": "deep_review",
+      "category": "accuracy",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Resolution is not probe accuracy; uncalibrated reference error exceeds 0.01 pH objective",
+      "evidence": {
+        "components": [
+          "U2",
+          "U3"
+        ],
+        "nets": [
+          "REF_2V048"
+        ],
+        "computation": {
+          "description": "Evaluate reference initial tolerance at 600 mV electrode input",
+          "result": "0.2% \u00d7 600 mV = 1.2 mV \u22480.0203 pH; physical calibration/validation pending",
+          "script": "docs/architecture/calculations.py"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U2",
+        "U3"
+      ],
+      "nets": [
+        "REF_2V048"
+      ],
+      "finding_id": "deep_review:69acea6b62a4"
+    },
+    {
+      "detector": "deep_review",
+      "category": "input_layout",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "Input and guard geometry preserved through routing",
+      "evidence": {
+        "components": [
+          "U1",
+          "J1"
+        ],
+        "nets": [
+          "PH_IN",
+          "PH_GUARD"
+        ],
+        "computation": {
+          "description": "Measure raw top-layer input geometry and intersect actual foreign zone polygons",
+          "result": "PH_IN 4.143 mm, no vias, no foreign filled copper intersection; guard geometry matches baseline",
+          "script": "scripts/validate_release.py"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "J1"
+      ],
+      "nets": [
+        "PH_IN",
+        "PH_GUARD"
+      ],
+      "finding_id": "deep_review:f8ed47289a93"
+    },
+    {
+      "detector": "deep_review",
+      "category": "input_range",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "Calculated gain-2 conversion range supports the assumed \u00b1600 mV envelope",
+      "evidence": {
+        "components": [
+          "U1",
+          "U2",
+          "U3"
+        ],
+        "nets": [
+          "ADC_P",
+          "ADC_N"
+        ],
+        "computation": {
+          "description": "Evaluate ADC input limits at minimum rail and allocated VCM uncertainty",
+          "result": "214 mV lower margin; \u00b11.024 V differential full scale; 31.25 \u00b5V/code",
+          "script": "docs/architecture/calculations.py"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "U2",
+        "U3"
+      ],
+      "nets": [
+        "ADC_P",
+        "ADC_N"
+      ],
+      "finding_id": "deep_review:97e4aa0ab612"
+    },
+    {
+      "detector": "deep_review",
+      "category": "leakage",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Board and connector leakage are unmeasured; cleanliness and guard tracking require hardware qualification",
+      "evidence": {
+        "components": [
+          "U1",
+          "J1"
+        ],
+        "nets": [
+          "PH_IN"
+        ],
+        "computation": {
+          "description": "Translate 100 fA board leakage allocation at 1 G\u03a9 source",
+          "result": "100 \u00b5V error allocation; 1 V contaminant gradient requires 10 T\u03a9 insulation",
+          "script": "docs/architecture/calculations.py"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "J1"
+      ],
+      "nets": [
+        "PH_IN"
+      ],
+      "finding_id": "deep_review:29efdf05f4c5"
+    },
+    {
+      "detector": "deep_review",
+      "category": "manufacturing",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "No vias overlap top solder-paste pads",
+      "evidence": {
+        "components": [
+          "U1",
+          "U2",
+          "U4"
+        ],
+        "nets": [],
+        "computation": {
+          "description": "Intersect via annuli with transformed paste pad geometry",
+          "result": "47 vias; 0 via/paste intersections",
+          "script": "scripts/validate_release.py"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "U2",
+        "U4"
+      ],
+      "finding_id": "deep_review:39a00ab97e22"
+    },
+    {
+      "detector": "deep_review",
+      "category": "pin_mapping",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "All five core IC pin names and native pad nets checked; this does not establish analog performance",
+      "evidence": {
+        "components": [
+          "U1",
+          "U2",
+          "U3",
+          "U4",
+          "U5"
+        ],
+        "nets": [],
+        "computation": {
+          "description": "Join partial PDF pin extractions with schematic/native pad mappings",
+          "result": "5 ICs, 39 schematic components; no pad-net or pin-name discrepancies",
+          "script": "scripts/validate_release.py"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ],
+      "finding_id": "deep_review:1838664d556b"
+    }
+  ],
+  "quarantined": []
+}

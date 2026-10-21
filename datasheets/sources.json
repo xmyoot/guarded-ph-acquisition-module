@@ -1,0 +1,58 @@
+[
+  {
+    "part": "LMP91200",
+    "url": "https://www.ti.com/lit/ds/symlink/lmp91200.pdf",
+    "file": "datasheets/LMP91200.pdf",
+    "sha256": "5507852d9aeb764901ba52a75a409de78ca270501d2fb5b94e502220ed20b170",
+    "retrieved": "2026-10-20"
+  },
+  {
+    "part": "ADS112C04",
+    "url": "https://www.ti.com/lit/ds/symlink/ads112c04.pdf",
+    "file": "datasheets/ADS112C04.pdf",
+    "sha256": "989f34cb2cbc747672bc13424af4aa1ed8d895c043a0d858a86ec7acdd940f3b",
+    "retrieved": "2026-10-20"
+  },
+  {
+    "part": "REF3220",
+    "url": "https://www.ti.com/lit/gpn/REF3220",
+    "file": "datasheets/REF3220.pdf",
+    "sha256": "c1c8c40221e4d282c0c759639bf5d3694d518fcd8bda86de747859579b82f175",
+    "retrieved": "2026-10-20"
+  },
+  {
+    "part": "TPS7A20",
+    "url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+    "file": "datasheets/TPS7A20.pdf",
+    "sha256": "b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+    "retrieved": "2026-10-20"
+  },
+  {
+    "part": "TPS3839",
+    "url": "https://www.ti.com/lit/ds/symlink/tps3839.pdf",
+    "file": "datasheets/TPS3839.pdf",
+    "sha256": "a18940237afc63cf6d1a0bb5e1c8c0b2c3274e01c47fa5f27e470a005072621b",
+    "retrieved": "2026-10-20"
+  },
+  {
+    "part": "ISO1540",
+    "url": "https://www.ti.com/lit/ds/symlink/iso1540.pdf",
+    "file": "datasheets/ISO1540.pdf",
+    "sha256": "a073ca9bd456eda119708ed14e1458c286ca65f332bfa8e451b922b9732fed0c",
+    "retrieved": "2026-10-20"
+  },
+  {
+    "part": "Amphenol 031-5431-1010",
+    "url": "https://www.amphenolrf.com/en-us/assets/file/4065788069/",
+    "file": "datasheets/BNC_031-5431-1010.pdf",
+    "sha256": "cdb70e9e3a9f58d7c975a3474c6a54fc8e48b06b6ea4e515c54df19ab733d5aa",
+    "retrieved": "2026-10-20"
+  },
+  {
+    "part": "JST PH",
+    "url": "https://www.jst.com/wp-content/uploads/2021/08/ePH-new.pdf",
+    "file": "datasheets/JST_PH.pdf",
+    "sha256": "1ad260cebec5780216c7ae52c1b4740f2ccb662eab974e98593a0bb82759c89e",
+    "retrieved": "2026-10-20"
+  }
+]

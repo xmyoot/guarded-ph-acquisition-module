@@ -1,0 +1,3735 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/hector/Documents/KiCAD_Projects/IoT_Soil_Testing_Device/hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_sch")
+		(date "2026-10-21T07:18:19")
+		(tool "Eeschema 10.0.7")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Soil pH Acquisition Module")
+				(company "Engineering prototype - hardware validation pending")
+				(rev "A")
+				(date "2026-10-20")
+				(source "Soil_pH_AFE.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "10u")
+			(footprint "Soil_pH:C_1206_3216Metric")
+			(fields
+				(field
+					(name "MPN") "GRM31CR71C106KA12L")
+				(field
+					(name "Footprint") "Soil_pH:C_1206_3216Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM31CR71C106KA12L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "820efaba-4fd8-5d84-ae62-650a0704b412")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "1u")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71C105KA12D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71C105KA12D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2fee03e8-3434-552d-8fc5-1e1c98d3c687")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "100n")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71H104KA93D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71H104KA93D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "097115f4-ebe9-56ae-a737-ec1c546ba019")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100n")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71H104KA93D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71H104KA93D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "551b683d-febf-5a92-b070-6fbc8d69b869")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "100n")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71H104KA93D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71H104KA93D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4ff22082-5e4f-5bd0-8962-bd1ea8dd7ef3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100n")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71H104KA93D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71H104KA93D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e7042f05-758f-5918-bc2d-a0f7d0c5ed90")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "1u")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71C105KA12D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71C105KA12D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "19f7153b-684d-5c90-82a9-1deff25884c1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100n")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71H104KA93D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71H104KA93D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2b53397f-92c4-58ad-b116-0f13f5edcc68")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "4.7u")
+			(footprint "Soil_pH:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71E475KA73L")
+				(field
+					(name "Footprint") "Soil_pH:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71E475KA73L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4c40af93-b017-508b-b0e7-db6ff14a077f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "4.7u")
+			(footprint "Soil_pH:C_0805_2012Metric")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71E475KA73L")
+				(field
+					(name "Footprint") "Soil_pH:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71E475KA73L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "97151d2d-58f6-5f56-84c2-ae3f800edec6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "1u")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71C105KA12D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71C105KA12D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ebd7d042-5e53-5d1c-9ee6-cc333b068a52")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "100n")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM188R71H104KA93D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R71H104KA93D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7b840bb8-6391-5d1c-96d8-2c564b54c4f2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "10n C0G")
+			(footprint "Soil_pH:C_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "GRM1885C1H103JA01D")
+				(field
+					(name "Footprint") "Soil_pH:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "C")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "GRM1885C1H103JA01D")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a2fab7ac-bb21-5290-961f-6df65e9bc01b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "INSULATED BNC")
+			(footprint "Soil_pH:BNC_031-5431-1010")
+			(datasheet "https://www.amphenolrf.com/en-us/assets/file/4065788069/")
+			(fields
+				(field
+					(name "MPN") "031-5431-1010")
+				(field
+					(name "Footprint") "Soil_pH:BNC_031-5431-1010")
+				(field
+					(name "Datasheet") "https://www.amphenolrf.com/en-us/assets/file/4065788069/")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "J1")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "031-5431-1010")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7c852e47-58e5-599d-9d0d-b47b81048fbc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "HOST / JST PH6")
+			(footprint "Soil_pH:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical")
+			(datasheet "https://www.jst.com/wp-content/uploads/2021/08/ePH-new.pdf")
+			(fields
+				(field
+					(name "MPN") "B6B-PH-K-S(LF)(SN)")
+				(field
+					(name "Footprint") "Soil_pH:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical")
+				(field
+					(name "Datasheet") "https://www.jst.com/wp-content/uploads/2021/08/ePH-new.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "J2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "B6B-PH-K-S(LF)(SN)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2fbce04e-2932-5eed-83a9-5816ae8a5800")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1k")
+			(footprint "Soil_pH:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "TNPW06031K00BEEA")
+				(field
+					(name "Footprint") "Soil_pH:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TNPW06031K00BEEA")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e0faf1f3-c76e-5dec-a16f-6eb4756a6f66")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "1k")
+			(footprint "Soil_pH:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "TNPW06031K00BEEA")
+				(field
+					(name "Footprint") "Soil_pH:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TNPW06031K00BEEA")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12596f0d-3528-5036-aa1f-7a30ad913ef0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "4.7k")
+			(footprint "Soil_pH:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CRCW06034K70FKEA")
+				(field
+					(name "Footprint") "Soil_pH:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW06034K70FKEA")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab0793a7-1c82-5027-88bf-4c3695c371b1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "4.7k")
+			(footprint "Soil_pH:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CRCW06034K70FKEA")
+				(field
+					(name "Footprint") "Soil_pH:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW06034K70FKEA")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "62de6154-587b-5e92-8b70-3458c5396eba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "0R")
+			(footprint "Soil_pH:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CRCW06030000Z0EA")
+				(field
+					(name "Footprint") "Soil_pH:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW06030000Z0EA")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7d62940a-9868-5f49-9dd0-392ded41289f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "0R")
+			(footprint "Soil_pH:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CRCW06030000Z0EA")
+				(field
+					(name "Footprint") "Soil_pH:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW06030000Z0EA")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "45ce509e-e059-553f-9fcc-93245b68824e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "10k")
+			(footprint "Soil_pH:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CRCW060310K0FKEA")
+				(field
+					(name "Footprint") "Soil_pH:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW060310K0FKEA")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "178d22b7-fada-5cd5-98e4-310f05dd55ae")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "100k")
+			(footprint "Soil_pH:R_0603_1608Metric")
+			(fields
+				(field
+					(name "MPN") "CRCW0603100KFKEA")
+				(field
+					(name "Footprint") "Soil_pH:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "R")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0603100KFKEA")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ddd85ed4-ca88-52e4-9c0c-ebc1aec0dd1f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "GND_A")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP1")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0774b411-724a-5b3e-a483-b7bfd975bac3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "+5V_IN")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "71f2bdac-a64c-5526-9052-d7e5b39c358a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "+3V3_A")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP3")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ec915183-2cfd-5b2d-92dd-1c7c95719364")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP4")
+			(value "REF_2V048")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP4")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a2e58330-5ed0-5954-a55e-241c72a5f8fc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP5")
+			(value "PH_VCM")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP5")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5a32c6a9-b4b1-5eaf-b941-a14a1946fb89")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP6")
+			(value "PH_VOUT")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP6")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "40e0a7dd-cb06-5dc5-9929-529d5a426a4f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP7")
+			(value "PH_VOCM")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP7")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f27394fa-e612-5270-b464-8fdf1c6be804")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP8")
+			(value "AFE_READY")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP8")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f203fe4d-ae00-53ce-a643-dac54d9e7967")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP9")
+			(value "I2C_SDA")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP9")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1b56b383-12d7-53e3-9d5c-19a4aec14438")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP10")
+			(value "I2C_SCL")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP10")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dcada18f-2448-57c6-b842-887a9eb0c6ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP11")
+			(value "ADC_DRDY_N")
+			(footprint "Soil_pH:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN") "PCB_FEATURE")
+				(field
+					(name "Footprint") "Soil_pH:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "TP11")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_FEATURE")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "72bc69c5-e00c-54da-bee0-9141f990ea3f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "LMP91200")
+			(footprint "Soil_pH:TSSOP-16_4.4x5mm_P0.65mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/lmp91200.pdf")
+			(fields
+				(field
+					(name "MPN") "LMP91200MTX/NOPB")
+				(field
+					(name "Footprint") "Soil_pH:TSSOP-16_4.4x5mm_P0.65mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/lmp91200.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "U1")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "LMP91200MTX/NOPB")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bbf91064-85b0-5b3e-a139-961e98b90572")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "ADS112C04")
+			(footprint "Soil_pH:TSSOP-16_4.4x5mm_P0.65mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/ads112c04.pdf")
+			(fields
+				(field
+					(name "MPN") "ADS112C04IPWR")
+				(field
+					(name "Footprint") "Soil_pH:TSSOP-16_4.4x5mm_P0.65mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ads112c04.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "U2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "ADS112C04IPWR")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "87582b25-fd29-5904-86e7-15a82e6d7ca8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "REF3220 / 2.048V")
+			(footprint "Soil_pH:SOT-23-6")
+			(datasheet "https://www.ti.com/lit/ds/symlink/ref3220.pdf")
+			(fields
+				(field
+					(name "MPN") "REF3220AIDBVT")
+				(field
+					(name "Footprint") "Soil_pH:SOT-23-6")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ref3220.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "U3")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "REF3220AIDBVT")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "935526e0-b8a5-55a0-874b-6813f68d65ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "TPS7A2033 / 3.3V")
+			(footprint "Soil_pH:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
+			(fields
+				(field
+					(name "MPN") "TPS7A2033PDBVR")
+				(field
+					(name "Footprint") "Soil_pH:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "U4")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TPS7A2033PDBVR")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a1cc1bd4-22e9-5e4d-9562-dc78d3e8ba5c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "TPS3839K33 / 2.93V")
+			(footprint "Soil_pH:SOT-23")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tps3839.pdf")
+			(fields
+				(field
+					(name "MPN") "TPS3839K33DBZT")
+				(field
+					(name "Footprint") "Soil_pH:SOT-23")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps3839.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Soil_pH")
+				(part "U5")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TPS3839K33DBZT")
+			)
+			(property
+				(name "Sheetname")
+				(value "Soil_pH_AFE")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Soil_pH_AFE.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5790ba39-799a-5600-9796-9cbf86b3fbb7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Soil_pH")
+			(part "C")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10u")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "J1")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "INSULATED BNC")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "CENTER")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "SHELL")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "J2")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "HOST / JST PH6")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+5V")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "SDA")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "SCL")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "RESERVED")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "R")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP1")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "GND_A")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP10")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "I2C_SCL")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP11")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "ADC_DRDY_N")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP2")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "+5V_IN")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP3")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "+3V3_A")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP4")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "REF_2V048")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP5")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "PH_VCM")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP6")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "PH_VOUT")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP7")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "PH_VOCM")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP8")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "AFE_READY")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "TP9")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "I2C_SDA")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "TEST")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "U1")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "LMP91200")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "3")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "4")
+					(name "GUARD1")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "INP")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "GUARD2")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "VCMHI")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "VCM")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "VREF")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "VOCM")
+					(type "output")
+				)
+				(pin
+					(num "12")
+					(name "VOUT")
+					(type "output")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "15")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "16")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "U2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "ADS112C04")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A0")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "A1")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "~{RESET}")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "DGND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "AVSS")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "AIN3")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "AIN2")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "REFN")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "REFP")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "AIN1")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "AIN0")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "AVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "13")
+					(name "DVDD")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "~{DRDY}")
+					(type "open_collector")
+				)
+				(pin
+					(num "15")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "SCL")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "U3")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "REF3220 / 2.048V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND_F")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND_S")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "ENABLE")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "OUT_S")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "OUT_F")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "U4")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS7A2033 / 3.3V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Soil_pH")
+			(part "U5")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS3839K33 / 2.93V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "~{RESET}")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "VDD")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Soil_pH")
+			(uri "${KIPRJMOD}/Soil_pH.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3V3_A")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "VDD_14")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "AVDD_12")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "DVDD_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "IN_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "VDD_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5V_IN")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "+5V_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "3")
+			(name "ADC_DRDY_N")
+			(class "Default")
+			(node
+				(ref "R7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP11")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "~{DRDY}_14")
+				(pintype "open_collector")
+			)
+		)
+		(net
+			(code "4")
+			(name "ADC_N")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "AIN1_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "ADC_P")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "AIN0_11")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "6")
+			(name "AFE_READY")
+			(class "Default")
+			(node
+				(ref "R8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP8")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "~{RESET}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "ENABLE_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "~{RESET}_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "7")
+			(name "GND_A")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "GND_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "GND_15")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "GND_16")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "A0_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "A1_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "DGND_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "AVSS_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "AIN3_6")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "AIN2_7")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "REFN_8")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "GND_F_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "GND_S_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "8")
+			(name "I2C_SCL")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "SCL_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP10")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "16")
+				(pinfunction "SCL_16")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "I2C_SDA")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "SDA_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP9")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "15")
+				(pinfunction "SDA_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "PH_GUARD")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "GUARD1_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "GUARD2_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "PH_IN")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "CENTER_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "INP_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "PH_VCM")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "SHELL_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP5")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "VCM_8")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "13")
+			(name "PH_VOCM")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP7")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "VOCM_11")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "14")
+			(name "PH_VOUT")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP6")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "VOUT_12")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "15")
+			(name "PULLUP_SCL")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "PULLUP_SDA")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "REF_2V048")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP4")
+				(pin "1")
+				(pinfunction "TEST_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "VREF_9")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "REFP_9")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "OUT_S_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "OUT_F_6")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "18")
+			(name "unconnected-(J2-RESERVED-Pad6)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "6")
+				(pinfunction "RESERVED_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(U1-NC-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "NC_2")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(U1-NC-Pad3)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "NC_3")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(U1-VCMHI-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "VCMHI_7")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(U4-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+	)
+)

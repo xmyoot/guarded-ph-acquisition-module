@@ -1,0 +1,888 @@
+{
+  "analyzer_type": "gerber",
+  "schema_version": "1.4.0",
+  "directory": "output/fabrication",
+  "generator": "Pcbnew 10.0.7",
+  "layer_count": 2,
+  "board_dimensions": {
+    "width_mm": 50.05,
+    "height_mm": 35.05,
+    "area_mm2": 1754.3,
+    "source": "gbrjob"
+  },
+  "statistics": {
+    "gerber_files": 9,
+    "drill_files": 2,
+    "total_holes": 59,
+    "total_flashes": 556,
+    "total_draws": 8294
+  },
+  "completeness": {
+    "found_layers": [
+      "B.Cu",
+      "B.Mask",
+      "B.Paste",
+      "B.SilkS",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.Paste",
+      "F.SilkS"
+    ],
+    "expected_layers": [
+      "B.Cu",
+      "B.Mask",
+      "B.Paste",
+      "B.SilkS",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.Paste",
+      "F.SilkS"
+    ],
+    "missing": [],
+    "extra": [],
+    "has_pth_drill": true,
+    "has_npth_drill": true,
+    "complete": true,
+    "source": "gbrjob"
+  },
+  "alignment": {
+    "aligned": false,
+    "issues": [
+      "Width varies by 7.4mm across copper/edge layers"
+    ],
+    "layer_extents": {
+      "B.Cu": {
+        "width": 42.58,
+        "height": 34.0
+      },
+      "B.Mask": {
+        "width": 44.0,
+        "height": 19.58
+      },
+      "B.Paste": {
+        "width": 0,
+        "height": 0
+      },
+      "B.SilkS": {
+        "width": 44.0,
+        "height": 19.58
+      },
+      "Edge.Cuts": {
+        "width": 50.0,
+        "height": 35.0
+      },
+      "F.Cu": {
+        "width": 42.6,
+        "height": 34.0
+      },
+      "F.Mask": {
+        "width": 45.0,
+        "height": 29.0
+      },
+      "F.Paste": {
+        "width": 28.862,
+        "height": 23.45
+      },
+      "F.SilkS": {
+        "width": 45.967,
+        "height": 31.967
+      },
+      "drill_NPTH": {
+        "width": 44.0,
+        "height": 0.0
+      },
+      "drill_PTH": {
+        "width": 41.08,
+        "height": 29.0
+      }
+    }
+  },
+  "drill_classification": {
+    "vias": {
+      "count": 47,
+      "tools": [
+        {
+          "diameter_mm": 0.3,
+          "count": 47
+        }
+      ]
+    },
+    "component_holes": {
+      "count": 12,
+      "tools": [
+        {
+          "diameter_mm": 0.75,
+          "count": 6
+        },
+        {
+          "diameter_mm": 1.0,
+          "count": 2
+        },
+        {
+          "diameter_mm": 2.1,
+          "count": 2
+        },
+        {
+          "diameter_mm": 2.2,
+          "count": 2,
+          "type": "NPTH"
+        }
+      ]
+    },
+    "mounting_holes": {
+      "count": 0,
+      "tools": []
+    },
+    "classification_method": "x2_attributes"
+  },
+  "pad_summary": {
+    "smd_apertures": 99,
+    "via_apertures": 94,
+    "heatsink_apertures": 0,
+    "tht_holes": 12,
+    "smd_source": "x2_aperture_function",
+    "smd_ratio": 0.89
+  },
+  "trace_widths": {
+    "unique_widths_mm": [
+      0.2,
+      0.25,
+      0.35,
+      0.4
+    ],
+    "min_trace_mm": 0.2,
+    "max_trace_mm": 0.4,
+    "width_count": 4,
+    "min_feature_mm": 0.2
+  },
+  "component_analysis": {
+    "total_unique": 44,
+    "front_side": 44,
+    "back_side": 0,
+    "component_refs": [
+      "C1",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "FID1",
+      "FID2",
+      "FID3",
+      "H1",
+      "H2",
+      "J1",
+      "J2",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "R8",
+      "TP1",
+      "TP10",
+      "TP11",
+      "TP2",
+      "TP3",
+      "TP4",
+      "TP5",
+      "TP6",
+      "TP7",
+      "TP8",
+      "TP9",
+      "U1",
+      "U2",
+      "U3",
+      "U4",
+      "U5"
+    ],
+    "has_x2_data": true,
+    "pads_per_component": {
+      "C1": 2,
+      "C10": 2,
+      "C11": 2,
+      "C12": 2,
+      "C13": 2,
+      "C2": 2,
+      "C3": 2,
+      "C4": 2,
+      "C5": 2,
+      "C6": 2,
+      "C7": 2,
+      "C8": 2,
+      "C9": 2,
+      "FID1": 1,
+      "FID2": 1,
+      "FID3": 1,
+      "H1": 1,
+      "H2": 1,
+      "J1": 4,
+      "J2": 6,
+      "R1": 2,
+      "R2": 2,
+      "R3": 2,
+      "R4": 2,
+      "R5": 2,
+      "R6": 2,
+      "R7": 2,
+      "R8": 2,
+      "TP1": 1,
+      "TP10": 1,
+      "TP11": 1,
+      "TP2": 1,
+      "TP3": 1,
+      "TP4": 1,
+      "TP5": 1,
+      "TP6": 1,
+      "TP7": 1,
+      "TP8": 1,
+      "TP9": 1,
+      "U1": 16,
+      "U2": 16,
+      "U3": 6,
+      "U4": 5,
+      "U5": 3
+    },
+    "total_pads": 114
+  },
+  "net_analysis": {
+    "total_unique": 23,
+    "named_nets": 18,
+    "unnamed_nets": 5,
+    "power_nets": [
+      "+3V3_A",
+      "+5V_IN"
+    ],
+    "signal_nets": [
+      "",
+      "ADC_DRDY_N",
+      "ADC_N",
+      "ADC_P",
+      "AFE_READY",
+      "GND_A",
+      "I2C_SCL",
+      "I2C_SDA",
+      "PH_GUARD",
+      "PH_IN",
+      "PH_VCM",
+      "PH_VOCM",
+      "PH_VOUT",
+      "PULLUP_SCL",
+      "PULLUP_SDA",
+      "REF_2V048"
+    ],
+    "total_pins": 110
+  },
+  "gerbers": [
+    {
+      "filename": "Soil_pH_AFE-B_Cu.gbl",
+      "layer_type": "B.Cu",
+      "units": "mm",
+      "aperture_count": 8,
+      "flash_count": 57,
+      "draw_count": 1964,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L2,Bot",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 4,
+          "ViaPad": 1,
+          "Conductor": 3
+        },
+        "by_function_flashes": {
+          "ComponentPad": 10,
+          "ViaPad": 47,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.2,
+          0.35,
+          0.4
+        ],
+        "min_feature_mm": 0.2
+      },
+      "x2_component_count": 0,
+      "x2_net_count": 15,
+      "x2_pin_count": 8
+    },
+    {
+      "filename": "Soil_pH_AFE-B_Mask.gbs",
+      "layer_type": "B.Mask",
+      "units": "mm",
+      "aperture_count": 5,
+      "flash_count": 12,
+      "draw_count": 4,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Bot",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.5
+      },
+      "x2_component_count": 4,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "Soil_pH_AFE-B_Paste.gbp",
+      "layer_type": "B.Paste",
+      "units": "mm",
+      "aperture_count": 0,
+      "flash_count": 0,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Paste,Bot",
+        "FilePolarity": "Positive"
+      }
+    },
+    {
+      "filename": "Soil_pH_AFE-B_Silkscreen.gbo",
+      "layer_type": "B.SilkS",
+      "units": "mm",
+      "aperture_count": 5,
+      "flash_count": 12,
+      "draw_count": 4,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Bot",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.5
+      },
+      "x2_component_count": 4,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "Soil_pH_AFE-Edge_Cuts.gm1",
+      "layer_type": "Edge.Cuts",
+      "units": "mm",
+      "aperture_count": 1,
+      "flash_count": 0,
+      "draw_count": 4,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Profile,NP"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "Profile": 1
+        },
+        "by_function_flashes": {
+          "Profile": 0
+        },
+        "min_feature_mm": 0.05
+      }
+    },
+    {
+      "filename": "Soil_pH_AFE-F_Cu.gtl",
+      "layer_type": "F.Cu",
+      "units": "mm",
+      "aperture_count": 22,
+      "flash_count": 159,
+      "draw_count": 4551,
+      "region_count": 5,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L1,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "SMDPad": 12,
+          "FiducialPad": 1,
+          "ComponentPad": 4,
+          "ViaPad": 1,
+          "Conductor": 4
+        },
+        "by_function_flashes": {
+          "SMDPad": 99,
+          "FiducialPad": 3,
+          "ComponentPad": 10,
+          "ViaPad": 47,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.2,
+          0.25,
+          0.35,
+          0.4
+        ],
+        "min_feature_mm": 0.2
+      },
+      "x2_component_count": 0,
+      "x2_net_count": 23,
+      "x2_pin_count": 110
+    },
+    {
+      "filename": "Soil_pH_AFE-F_Mask.gts",
+      "layer_type": "F.Mask",
+      "units": "mm",
+      "aperture_count": 18,
+      "flash_count": 114,
+      "draw_count": 4,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Top",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.2
+      },
+      "x2_component_count": 44,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "Soil_pH_AFE-F_Paste.gtp",
+      "layer_type": "F.Paste",
+      "units": "mm",
+      "aperture_count": 11,
+      "flash_count": 88,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Paste,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.2
+      },
+      "x2_component_count": 26,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "Soil_pH_AFE-F_Silkscreen.gto",
+      "layer_type": "F.SilkS",
+      "units": "mm",
+      "aperture_count": 21,
+      "flash_count": 114,
+      "draw_count": 1763,
+      "region_count": 6,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.7",
+        "CreationDate": "2026-10-21T07:11:34-07:00",
+        "ProjectId": "Soil_pH_AFE,536f696c-5f70-4485-9f41-46452e6b6963,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.1
+      },
+      "x2_component_count": 44,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    }
+  ],
+  "drills": [
+    {
+      "filename": "Soil_pH_AFE-NPTH.drl",
+      "type": "NPTH",
+      "units": "mm",
+      "hole_count": 2,
+      "tools": {
+        "T1": {
+          "diameter_mm": 2.2,
+          "hole_count": 2,
+          "aper_function": "NonPlated,NPTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        2
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-10-21T07:11:35-07:00",
+        "GenerationSoftware": "Kicad,Pcbnew,10.0.7",
+        "FileFunction": "NonPlated,1,2,NPTH"
+      }
+    },
+    {
+      "filename": "Soil_pH_AFE-PTH.drl",
+      "type": "PTH",
+      "units": "mm",
+      "hole_count": 57,
+      "tools": {
+        "T1": {
+          "diameter_mm": 0.3,
+          "hole_count": 47,
+          "aper_function": "Plated,PTH,ViaDrill"
+        },
+        "T2": {
+          "diameter_mm": 0.75,
+          "hole_count": 6,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T3": {
+          "diameter_mm": 1.0,
+          "hole_count": 2,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T4": {
+          "diameter_mm": 2.1,
+          "hole_count": 2,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        2
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-10-21T07:11:35-07:00",
+        "GenerationSoftware": "Kicad,Pcbnew,10.0.7",
+        "FileFunction": "Plated,1,2,PTH"
+      }
+    }
+  ],
+  "drill_tools": {
+    "2.2mm": {
+      "diameter_mm": 2.2,
+      "count": 2,
+      "type": "NPTH"
+    },
+    "0.3mm": {
+      "diameter_mm": 0.3,
+      "count": 47,
+      "type": "PTH"
+    },
+    "0.75mm": {
+      "diameter_mm": 0.75,
+      "count": 6,
+      "type": "PTH"
+    },
+    "1.0mm": {
+      "diameter_mm": 1.0,
+      "count": 2,
+      "type": "PTH"
+    },
+    "2.1mm": {
+      "diameter_mm": 2.1,
+      "count": 2,
+      "type": "PTH"
+    }
+  },
+  "job_file": {
+    "generator": "Pcbnew 10.0.7",
+    "vendor": "KiCad",
+    "creation_date": "2026-10-21T07:11:34-07:00",
+    "board_width_mm": 50.05,
+    "board_height_mm": 35.05,
+    "layer_count": 2,
+    "board_thickness_mm": 1.6,
+    "finish": "None",
+    "project_name": "Soil_pH_AFE",
+    "design_rules": [
+      {
+        "layers": "Outer",
+        "PadToPad": 0.2,
+        "PadToTrack": 0.2,
+        "TrackToTrack": 0.2,
+        "MinLineWidth": 0.2,
+        "TrackToRegion": 0.25,
+        "RegionToRegion": 0.25
+      }
+    ],
+    "expected_files": [
+      {
+        "path": "Soil_pH_AFE-F_Cu.gtl",
+        "function": "Copper,L1,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "Soil_pH_AFE-B_Cu.gbl",
+        "function": "Copper,L2,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "Soil_pH_AFE-F_Paste.gtp",
+        "function": "SolderPaste,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "Soil_pH_AFE-B_Paste.gbp",
+        "function": "SolderPaste,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "Soil_pH_AFE-F_Silkscreen.gto",
+        "function": "Legend,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "Soil_pH_AFE-B_Silkscreen.gbo",
+        "function": "Legend,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "Soil_pH_AFE-F_Mask.gts",
+        "function": "SolderMask,Top",
+        "polarity": "Negative"
+      },
+      {
+        "path": "Soil_pH_AFE-B_Mask.gbs",
+        "function": "SolderMask,Bot",
+        "polarity": "Negative"
+      },
+      {
+        "path": "Soil_pH_AFE-Edge_Cuts.gm1",
+        "function": "Profile",
+        "polarity": "Positive"
+      }
+    ],
+    "stackup": [
+      {
+        "type": "Legend",
+        "name": "Top Silk Screen"
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Top Solder Paste"
+      },
+      {
+        "type": "SolderMask",
+        "name": "Top Solder Mask",
+        "thickness_mm": 0.01
+      },
+      {
+        "type": "Copper",
+        "name": "F.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "Dielectric",
+        "name": "F.Cu/B.Cu",
+        "thickness_mm": 1.51,
+        "material": "FR4"
+      },
+      {
+        "type": "Copper",
+        "name": "B.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "SolderMask",
+        "name": "Bottom Solder Mask",
+        "thickness_mm": 0.01
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Bottom Solder Paste"
+      },
+      {
+        "type": "Legend",
+        "name": "Bottom Silk Screen"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "detector": "analyze_gerbers",
+      "rule_id": "GR-002",
+      "category": "gerber_alignment",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Alignment: Width varies by 7.4mm across copper/edge layers",
+      "description": "Layer alignment issue: Width varies by 7.4mm across copper/edge layers",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+      "report_context": {
+        "section": "Gerber Alignment",
+        "impact": "Layer misregistration",
+        "standard_ref": ""
+      },
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "gerber:GR-002:b94d0b9ac7a6"
+    }
+  ],
+  "assessments": [],
+  "summary": {
+    "total_findings": 1,
+    "by_severity": {
+      "error": 0,
+      "warning": 1,
+      "info": 0
+    }
+  },
+  "trust_summary": {
+    "total_findings": 1,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 1,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 1,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "inputs": {
+    "source_files": [
+      "output/fabrication/Soil_pH_AFE-B_Cu.gbl",
+      "output/fabrication/Soil_pH_AFE-B_Mask.gbs",
+      "output/fabrication/Soil_pH_AFE-B_Paste.gbp",
+      "output/fabrication/Soil_pH_AFE-B_Silkscreen.gbo",
+      "output/fabrication/Soil_pH_AFE-Edge_Cuts.gm1",
+      "output/fabrication/Soil_pH_AFE-F_Cu.gtl",
+      "output/fabrication/Soil_pH_AFE-F_Mask.gts",
+      "output/fabrication/Soil_pH_AFE-F_Paste.gtp",
+      "output/fabrication/Soil_pH_AFE-F_Silkscreen.gto",
+      "output/fabrication/Soil_pH_AFE-NPTH.drl",
+      "output/fabrication/Soil_pH_AFE-PTH.drl",
+      "output/fabrication/Soil_pH_AFE-job.gbrjob"
+    ],
+    "source_hashes": {
+      "output/fabrication/Soil_pH_AFE-B_Cu.gbl": "1a6215f3850779014a789c03a071ea2c7e08c8fe1f0984c5df242739e601c91c",
+      "output/fabrication/Soil_pH_AFE-B_Mask.gbs": "37c9a49435883ccf2e84fd25a36512690147d0c77c9427af1c98d1bb1888538d",
+      "output/fabrication/Soil_pH_AFE-B_Paste.gbp": "9c5b4650d1dd3ca5c81e2a96f932f4730bba93c10de00321c6acf2816f5a9caf",
+      "output/fabrication/Soil_pH_AFE-B_Silkscreen.gbo": "eed9d35b0b58036015248b90663a2ab69fee768e55979e1d3b2fae85afa4ab96",
+      "output/fabrication/Soil_pH_AFE-Edge_Cuts.gm1": "7b28d4b38acf1d75926c64d512ac8301f8f8468ac8fd31570e761335fe197dc2",
+      "output/fabrication/Soil_pH_AFE-F_Cu.gtl": "0c8c60b02df742de3800e20950bdd5c56b2f51b520fc105a1bdd4e40aa312afa",
+      "output/fabrication/Soil_pH_AFE-F_Mask.gts": "580ee26e501b531b46a183af466fef6f05969564d0668f3721c0db36f0c068e3",
+      "output/fabrication/Soil_pH_AFE-F_Paste.gtp": "aabc0d186947d9398886cda6f3b59eab61d21476204138af071f25857aed5aad",
+      "output/fabrication/Soil_pH_AFE-F_Silkscreen.gto": "9ca8fcb0948c9265592da564944b102aabdceb04c59e7877501559cb90c4bf94",
+      "output/fabrication/Soil_pH_AFE-NPTH.drl": "9de669ac8d2e179a5f0d24767418cc0bfc335860d23a6cd3f466a0bf2b2c28e3",
+      "output/fabrication/Soil_pH_AFE-PTH.drl": "350aa7e4d18287b76ee1b6f95adf28b852b4f19d5a99c3da2c8baac19a65fdf9",
+      "output/fabrication/Soil_pH_AFE-job.gbrjob": "191e5f0de1180aa3290709818c5bc09377ad0de604d19f04438dbcde3b403163"
+    },
+    "run_id": "20261021T141244Z-e0e7ba",
+    "config_hash": null,
+    "upstream_artifacts": {}
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 1,
+      "by_severity": {
+        "error": 0,
+        "warning": 1,
+        "info": 0
+      },
+      "by_category": {
+        "gerber_alignment": 1
+      },
+      "top_issues": [
+        {
+          "detector": "analyze_gerbers",
+          "rule_id": "GR-002",
+          "category": "gerber_alignment",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "Alignment: Width varies by 7.4mm across copper/edge layers",
+          "description": "Layer alignment issue: Width varies by 7.4mm across copper/edge layers",
+          "components": [],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+          "report_context": {
+            "section": "Gerber Alignment",
+            "impact": "Layer misregistration",
+            "standard_ref": ""
+          },
+          "stages": [
+            "pre_fab"
+          ],
+          "finding_id": "gerber:GR-002:b94d0b9ac7a6"
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 1,
+      "by_category": {
+        "gerber_alignment": 1
+      },
+      "top_issues": [
+        {
+          "rule_id": "GR-002",
+          "severity": "warning",
+          "summary": "Alignment: Width varies by 7.4mm across copper/edge layers",
+          "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+          "category": "gerber_alignment"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 1,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "pass",
+        "pre_fab": "needs_review",
+        "bring_up": "pass"
+      },
+      "one_liner": "1 warning across 1 category."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261021T141244Z-e0e7ba"
+  }
+}

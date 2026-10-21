@@ -1,0 +1,502 @@
+{
+  "analyzer_type": "lifecycle",
+  "schema_version": "1.4.0",
+  "audit_date": "2026-10-20T12:13:20-07:00",
+  "components_checked": 16,
+  "components_with_mpn": 16,
+  "components_without_mpn": 1,
+  "sources_available": [],
+  "findings": [
+    {
+      "mpn": "ADS112C04IPWR",
+      "references": [
+        "U2"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "ADS112C04IPWR: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for ADS112C04IPWR could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "U2"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "B6B-PH-K-S(LF)(SN)",
+      "references": [
+        "J2"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "B6B-PH-K-S(LF)(SN): unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for B6B-PH-K-S(LF)(SN) could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "J2"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "CRCW06030000Z0EA",
+      "references": [
+        "R5",
+        "R6"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "CRCW06030000Z0EA: unknown (2 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for CRCW06030000Z0EA could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "R5",
+        "R6"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "CRCW0603100KFKEA",
+      "references": [
+        "R8"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "CRCW0603100KFKEA: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for CRCW0603100KFKEA could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "R8"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "CRCW060310K0FKEA",
+      "references": [
+        "R7"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "CRCW060310K0FKEA: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for CRCW060310K0FKEA could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "R7"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "CRCW06034K70FKEA",
+      "references": [
+        "R3",
+        "R4"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "CRCW06034K70FKEA: unknown (2 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for CRCW06034K70FKEA could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "R3",
+        "R4"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "GRM1885C1H103JA01D",
+      "references": [
+        "C13"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "GRM1885C1H103JA01D: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for GRM1885C1H103JA01D could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "C13"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "GRM188R71C105KA12D",
+      "references": [
+        "C11",
+        "C2",
+        "C7"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "GRM188R71C105KA12D: unknown (3 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for GRM188R71C105KA12D could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "C11",
+        "C2",
+        "C7"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "GRM188R71H104KA93D",
+      "references": [
+        "C12",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C8"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "GRM188R71H104KA93D: unknown (6 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for GRM188R71H104KA93D could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "C12",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C8"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "GRM21BR71E475KA73L",
+      "references": [
+        "C10",
+        "C9"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "GRM21BR71E475KA73L: unknown (2 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for GRM21BR71E475KA73L could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "C10",
+        "C9"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "GRM31CR71C106KA12L",
+      "references": [
+        "C1"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "GRM31CR71C106KA12L: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for GRM31CR71C106KA12L could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "C1"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "LMP91200MTX/NOPB",
+      "references": [
+        "U1"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "LMP91200MTX/NOPB: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for LMP91200MTX/NOPB could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "U1"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "REF3220AIDBVT",
+      "references": [
+        "U3"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "REF3220AIDBVT: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for REF3220AIDBVT could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "U3"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "TNPW06031K00BEEA",
+      "references": [
+        "R1",
+        "R2"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "TNPW06031K00BEEA: unknown (2 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for TNPW06031K00BEEA could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "R1",
+        "R2"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "TPS3839K33DBZT",
+      "references": [
+        "U5"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "TPS3839K33DBZT: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for TPS3839K33DBZT could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "U5"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    },
+    {
+      "mpn": "TPS7A2033PDBVR",
+      "references": [
+        "U4"
+      ],
+      "status": "unknown",
+      "sources": {},
+      "detector": "audit_bom",
+      "rule_id": "LC-ACT",
+      "category": "lifecycle",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "api_lookup",
+      "summary": "TPS7A2033PDBVR: unknown (1 ref(s)) \u2014 LCSC returns no lifecycle status",
+      "description": "Lifecycle status for TPS7A2033PDBVR could not be determined: LCSC returns no lifecycle status. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+      "components": [
+        "U4"
+      ],
+      "nets": [],
+      "pins": [],
+      "report_context": {
+        "section": "Lifecycle",
+        "impact": "",
+        "standard_ref": ""
+      }
+    }
+  ],
+  "lifecycle_summary": {
+    "active": 0,
+    "nrnd": 0,
+    "last_time_buy": 0,
+    "obsolete": 0,
+    "discontinued": 0,
+    "unknown": 16
+  },
+  "capability_note": "LCSC (jlcsearch) exposes no lifecycle/obsolescence status \u2014 every part reads 'unknown' by construction. Use DigiKey, Mouser, or element14 credentials for a real lifecycle audit.",
+  "temperature_summary": {
+    "design_target": {
+      "min_c": 0.0,
+      "max_c": 50.0,
+      "grade": "non-standard"
+    },
+    "components_checked": 0,
+    "components_meeting_spec": 0,
+    "components_failing_spec": 0,
+    "grade_distribution": {}
+  },
+  "observations": [
+    "LCSC-only audit: lifecycle status unavailable from this source (all statuses 'unknown' by construction)"
+  ],
+  "summary": {
+    "total_findings": 16,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 16
+    },
+    "components_checked": 16,
+    "lifecycle_issues": 16,
+    "temperature_issues": 0
+  },
+  "trust_summary": {
+    "total_findings": 16,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 16,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 16
+    },
+    "provenance_coverage_pct": 0.0
+  }
+}

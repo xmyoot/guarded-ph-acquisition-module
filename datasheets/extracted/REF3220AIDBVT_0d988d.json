@@ -1,0 +1,102 @@
+{
+  "mpn": "REF3220AIDBVT",
+  "manufacturer": "Texas Instruments",
+  "category": "voltage_reference",
+  "package": "SOT23-6 DBV",
+  "description": "REF3220",
+  "topology": "other",
+  "pins": [
+    {
+      "number": "1",
+      "name": "GND_F",
+      "type": "ground",
+      "description": "REF3220 manufacturer pin function table p3; GND_F",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "2",
+      "name": "GND_S",
+      "type": "ground",
+      "description": "REF3220 manufacturer pin function table p3; GND_S",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "3",
+      "name": "ENABLE",
+      "type": "digital",
+      "description": "REF3220 manufacturer pin function table p3; ENABLE",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "4",
+      "name": "IN",
+      "type": "power",
+      "description": "REF3220 manufacturer pin function table p3; IN",
+      "direction": "input",
+      "required_external": null
+    },
+    {
+      "number": "5",
+      "name": "OUT_S",
+      "type": "analog",
+      "description": "REF3220 manufacturer pin function table p3; OUT_S",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "6",
+      "name": "OUT_F",
+      "type": "analog",
+      "description": "REF3220 manufacturer pin function table p3; OUT_F",
+      "direction": null,
+      "required_external": null
+    }
+  ],
+  "absolute_maximum_ratings": {
+    "vin_max_v": 7.5,
+    "junction_temp_max_c": 150
+  },
+  "recommended_operating_conditions": {
+    "vin_min_v": 2.1,
+    "vin_max_v": 5.5,
+    "temp_min_c": -40,
+    "temp_max_c": 125
+  },
+  "electrical_characteristics": {
+    "vref_v": 2.048,
+    "initial_accuracy_pct": 0.2
+  },
+  "application_circuit": {
+    "notes": "Connect force and sense at load; ENABLE low during slow input ramp; sections 6.1.1,7",
+    "source_section": "See pin table and application/layout sections in archived PDF"
+  },
+  "extraction_metadata": {
+    "source_pdf": "REF3220.pdf",
+    "method": "Manual transcription; partial facts; manufacturer PDF is authoritative",
+    "pin_table_page": 3,
+    "quality": {
+      "total": 8.1,
+      "pin_coverage": 10.0,
+      "voltage_ratings": 10.0,
+      "application_info": 5.0,
+      "electrical_characteristics": 6.0,
+      "spice_specs": 5.0,
+      "issues": [
+        "Missing circuit topology",
+        "No component recommendations",
+        "Missing required: vref_accuracy_pct",
+        "Missing optional: temp_coefficient_ppmk",
+        "No spice_specs section (could derive from electrical_characteristics)"
+      ],
+      "sufficient": true
+    },
+    "extraction_score": 8.1,
+    "source_pdf_hash": "sha256:c1c8c40221e4d282c0c759639bf5d3694d518fcd8bda86de747859579b82f175",
+    "extraction_date": "2026-10-20T19:08:51.201177+00:00",
+    "extraction_version": 2,
+    "retry_count": 0
+  }
+}

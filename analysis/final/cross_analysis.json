@@ -1,0 +1,297 @@
+{
+  "analyzer_type": "cross_analysis",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "analysis/final/schematic.json",
+      "analysis/final/pcb.json"
+    ],
+    "source_hashes": {
+      "analysis/final/schematic.json": "f0605bf7697b8c4e09724a25a8d61fd082d5b9c2d696c200f7bd8a225dbad738",
+      "analysis/final/pcb.json": "c77463c2eb420f95243f8907745895ba3ce867071742e51ae4a0399315b2b8da"
+    },
+    "run_id": "20261021T141244Z-e0e7ba",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "analysis/final/schematic.json",
+        "sha256": "f0605bf7697b8c4e09724a25a8d61fd082d5b9c2d696c200f7bd8a225dbad738",
+        "schema_version": "1.4.0",
+        "run_id": "20261021T141244Z-e0e7ba"
+      },
+      "pcb": {
+        "path": "analysis/final/pcb.json",
+        "sha256": "c77463c2eb420f95243f8907745895ba3ce867071742e51ae4a0399315b2b8da",
+        "schema_version": "1.4.0",
+        "run_id": "20261021T141244Z-e0e7ba"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "elapsed_s": 0.01,
+  "summary": {
+    "total_findings": 2,
+    "by_severity": {
+      "error": 0,
+      "warning": 2,
+      "info": 0
+    }
+  },
+  "findings": [
+    {
+      "detector": "check_return_path_enhanced",
+      "rule_id": "RP-002",
+      "category": "return_path",
+      "summary": "i2c net I2C_SDA crosses +3V3_A plane gap",
+      "description": "i2c signal I2C_SDA crosses a gap in +3V3_A plane on layer F.Cu.",
+      "components": [],
+      "nets": [
+        "I2C_SDA",
+        "+3V3_A"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "recommendation": "Re-route I2C_SDA to avoid the +3V3_A plane gap, or bridge with a stitching capacitor.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "Increased EMI from enlarged return path loop",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:RP-002:i2c_sda",
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "detector": "check_plane_splits",
+      "rule_id": "PS-002",
+      "category": "plane_integrity",
+      "summary": "+3V3_A plane split: 8 islands, 1 signals crossing",
+      "description": "+3V3_A plane has 8 disconnected islands. Signals crossing: I2C_SDA.",
+      "components": [],
+      "nets": [
+        "+3V3_A",
+        "I2C_SDA"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "recommendation": "Bridge the plane gap with copper pour or stitching vias. If zones were modified after the last fill, run KiCad Edit \u2192 Fill All Zones (B) and re-run the analyzer first \u2014 stale zone fills are a common cause of apparent plane splits.",
+      "report_context": {
+        "section": "Plane Integrity",
+        "impact": "Return path discontinuity increases EMI",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:PS-002:+3v3_a",
+      "stages": [
+        "layout"
+      ]
+    }
+  ],
+  "assessments": [],
+  "checks_run": [
+    {
+      "check": "CC-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 2,
+      "findings": 0
+    },
+    {
+      "check": "EG-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 2,
+      "findings": 0
+    },
+    {
+      "check": "DA-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "XV-001..003",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 44,
+      "findings": 0
+    },
+    {
+      "check": "NR-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 352,
+      "findings": 0
+    },
+    {
+      "check": "RP-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 352,
+      "findings": 1
+    },
+    {
+      "check": "TW-001",
+      "ran": false,
+      "reason_skipped": "no power regulator current estimates in schematic analysis",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "PS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 22,
+      "findings": 1
+    },
+    {
+      "check": "VS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 47,
+      "findings": 0
+    },
+    {
+      "check": "DP-005",
+      "ran": false,
+      "reason_skipped": "no differential pairs classified in schematic net_classifications",
+      "items_examined": 0,
+      "findings": 0
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 2,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 2,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 2,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 2,
+      "by_severity": {
+        "error": 0,
+        "warning": 2,
+        "info": 0
+      },
+      "by_category": {
+        "return_path": 1,
+        "plane_integrity": 1
+      },
+      "top_issues": [
+        {
+          "detector": "check_return_path_enhanced",
+          "rule_id": "RP-002",
+          "category": "return_path",
+          "summary": "i2c net I2C_SDA crosses +3V3_A plane gap",
+          "description": "i2c signal I2C_SDA crosses a gap in +3V3_A plane on layer F.Cu.",
+          "components": [],
+          "nets": [
+            "I2C_SDA",
+            "+3V3_A"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "recommendation": "Re-route I2C_SDA to avoid the +3V3_A plane gap, or bridge with a stitching capacitor.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "Increased EMI from enlarged return path loop",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:RP-002:i2c_sda",
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "detector": "check_plane_splits",
+          "rule_id": "PS-002",
+          "category": "plane_integrity",
+          "summary": "+3V3_A plane split: 8 islands, 1 signals crossing",
+          "description": "+3V3_A plane has 8 disconnected islands. Signals crossing: I2C_SDA.",
+          "components": [],
+          "nets": [
+            "+3V3_A",
+            "I2C_SDA"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "recommendation": "Bridge the plane gap with copper pour or stitching vias. If zones were modified after the last fill, run KiCad Edit \u2192 Fill All Zones (B) and re-run the analyzer first \u2014 stale zone fills are a common cause of apparent plane splits.",
+          "report_context": {
+            "section": "Plane Integrity",
+            "impact": "Return path discontinuity increases EMI",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:PS-002:+3v3_a",
+          "stages": [
+            "layout"
+          ]
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 2,
+      "by_category": {
+        "return_path": 1,
+        "plane_integrity": 1
+      },
+      "top_issues": [
+        {
+          "rule_id": "RP-002",
+          "severity": "warning",
+          "summary": "i2c net I2C_SDA crosses +3V3_A plane gap",
+          "recommendation": "Re-route I2C_SDA to avoid the +3V3_A plane gap, or bridge with a stitching capacitor.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "PS-002",
+          "severity": "warning",
+          "summary": "+3V3_A plane split: 8 islands, 1 signals crossing",
+          "recommendation": "Bridge the plane gap with copper pour or stitching vias. If zones were modified after the last fill, run KiCad Edit \u2192 Fill All Zones (B) and re-run the analyzer first \u2014 stale zone fills are a common cause of apparent plane splits.",
+          "category": "plane_integrity"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 2,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "needs_review",
+        "pre_fab": "pass",
+        "bring_up": "pass"
+      },
+      "one_liner": "2 warnings across 2 categories."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261021T141244Z-e0e7ba"
+  }
+}

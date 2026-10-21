@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "Soil_pH") (type "KiCad") (uri "${KIPRJMOD}/Soil_pH.pretty") (options "") (descr "Frozen prototype footprints")))

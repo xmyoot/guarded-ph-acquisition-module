@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+*.kicad_prl
+*.lck
+*-backups/
+client_request/
+datasheets/*.pdf
+datasheets/*.txt
+output/firmware/
+analysis/pre_refinement/
+analysis/stages/*
+!analysis/stages/Soil_pH_AFE_placed.kicad_pcb
+
+firmware/**/build/

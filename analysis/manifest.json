@@ -1,0 +1,20 @@
+{
+  "review_date": "2026-10-21",
+  "method": "Fresh explicit --output paths; previous timestamp cache not authoritative",
+  "files": {
+    "analysis/final/capability_mode.json": "a1f116abaef210689d5ccc3be6c2340c59d19c4afb89610b372825b85a3a960d",
+    "analysis/final/cross_analysis.json": "4906063dbd0c6c60e7ffe468245b8ed41346147117b3ce7f11d57dfff680fa5f",
+    "analysis/final/emc.json": "474b2cf832c36e5ca9e4e7925876c883f9f32d758388f85db42d0d3cfd9e4116",
+    "analysis/final/gerber.json": "e1ac54d854906bdf731cfc9947830448979a51d1b9f7a089851608b83df40590",
+    "analysis/final/pcb.json": "c77463c2eb420f95243f8907745895ba3ce867071742e51ae4a0399315b2b8da",
+    "analysis/final/prior_delta.txt": "bc65cd5b7e893fdf4bcc44f0d8b7cf63cf36d18e866832e03e3ed7d7bb50047c",
+    "analysis/final/schematic.json": "f0605bf7697b8c4e09724a25a8d61fd082d5b9c2d696c200f7bd8a225dbad738",
+    "analysis/final/thermal.json": "8611761cd252e3746ff0330f8769539bc6b044dd70a2a1a8a22704478f44539e",
+    "hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_dru": "95083b0aab0d2831389dcefbb6565ec30a70bf3338256329e5e68ec27eac94b9",
+    "hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_pcb": "6cca050ec0e33b3a791eefd291c587da7dcde4126d20ce21c31fae461f67b66a",
+    "hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_pro": "678e77098f1342ee6ab8822a2267b7e1460dc5e1d8e236c9abf33fcbf52fb619",
+    "hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_sch": "2cb09a011cb734f2af11549fef96db01ceb2b9fec5e6c6b516aaf797069e7c67",
+    "analysis/final/lifecycle_attempt.json": "cd7fa41bf478ddd402f26657ebeab8e18514eb7f9df8ed362ac13fb8058823a5",
+    "analysis/deep_review.json": "ce68a466bc9ec977e35e9f7b68acb1dbc8e8bb672e5cde62fdcebdc912dfb8dc"
+  }
+}

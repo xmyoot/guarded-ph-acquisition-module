@@ -1,0 +1,155 @@
+{
+ "routed_single": [
+  "ADC_P"
+ ],
+ "failed_single": [],
+ "open_single": [],
+ "failed_multipoint": [],
+ "multipoint_nets": 0,
+ "multipoint_pads_connected": 3,
+ "multipoint_pads_total": 3,
+ "multipoint_edges_routed": 0,
+ "multipoint_edges_failed": 0,
+ "ripup_success_pairs": [],
+ "rerouted_pairs": [],
+ "single_ended_target_swaps": [],
+ "layer_swaps": 0,
+ "successful": 1,
+ "failed": 0,
+ "total_time": 0.02,
+ "total_iterations": 4874,
+ "total_vias": 1,
+ "cleanup_disconnected": [],
+ "min_clearance_used": 0.2,
+ "design_rules": {
+  "escalation_policy": "off",
+  "fab_tier": "auto",
+  "board_floors": {
+   "clearance": 0.2,
+   "track_width": 0.2,
+   "via_diameter": 0.6,
+   "via_drill": 0.3,
+   "hole_to_hole": 0.25,
+   "annular": 0.15,
+   "board_edge": 0.3
+  },
+  "count": 0,
+  "nets": [],
+  "narrowed": [],
+  "min_delivered": {},
+  "fab_tier_escalations": 0,
+  "fab_tier_contexts": [],
+  "fab_tier_target": "advanced",
+  "unsupported_rules": [
+   "Exposed guard mask window"
+  ]
+ },
+ "plane_fragility": {
+  "source": "kicad_refill",
+  "islands": 5,
+  "refill_status": "ok",
+  "why": "the KiCad refill succeeded (memo hit)",
+  "machine_dependent": false
+ },
+ "pour_guard": {
+  "source": "kicad_refill",
+  "why": "",
+  "pours": [
+   {
+    "net": "GND_A",
+    "layer": "B.Cu",
+    "blocked_islands": 0,
+    "blocked_mm2": 0,
+    "crossable_islands": 1,
+    "minor_islands": 0
+   },
+   {
+    "net": "GND_A",
+    "layer": "F.Cu",
+    "blocked_islands": 2,
+    "blocked_mm2": 38.4,
+    "crossable_islands": 2,
+    "minor_islands": 0
+   }
+  ]
+ },
+ "stacked_copper": [
+  {
+   "category": "stacked-copper",
+   "net": "GND_A",
+   "layer": "F.Cu",
+   "x": 132.863,
+   "y": 114.875,
+   "detail": "2 duplicate segments stacked on (132.863, 114.875)-(132.900, 114.900)",
+   "size": 0.04465422712354048
+  },
+  {
+   "category": "stacked-copper",
+   "net": "GND_A",
+   "layer": "F.Cu",
+   "x": 132.863,
+   "y": 115.525,
+   "detail": "2 duplicate segments stacked on (132.863, 115.525)-(132.900, 115.500)",
+   "size": 0.04465422712354048
+  },
+  {
+   "category": "stacked-copper",
+   "net": "GND_A",
+   "layer": "F.Cu",
+   "x": 134.1,
+   "y": 116.2,
+   "detail": "2 duplicate segments stacked on (134.100, 116.200)-(134.200, 116.100)",
+   "size": 0.1414213562373115
+  }
+ ],
+ "oracle_check": "disabled",
+ "protected_skipped": {
+  "pre-existing rip candidacy": {
+   "REF_2V048": "locked",
+   "PH_VCM": "Manual analog route; locked copper; do not target",
+   "PH_IN": "locked",
+   "PH_GUARD": "locked",
+   "PH_VOCM": "Manual analog route; locked copper; do not target"
+  }
+ },
+ "pad_pairs_connected": 2,
+ "pad_pairs_total": 2,
+ "net_keepouts": [],
+ "scope": "merged",
+ "env_knobs": {
+  "KICAD_CLI": "/Users/hector/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli"
+ },
+ "finalize_excluded_nets": [
+  "GND_A"
+ ],
+ "regrade": {
+  "board": "file",
+  "graded_nets": 1,
+  "seconds": 0.06,
+  "unowned_broken": [],
+  "recovered": [],
+  "broken_by_run": []
+ },
+ "via_in_pad": {
+  "count": 0,
+  "sites": [],
+  "stamped": 0,
+  "restored": 0,
+  "protected": 0,
+  "unstampable": 0,
+  "site_created": 0,
+  "unprotected": [],
+  "note": "via-in-pad requires IPC-4761 Type VII (filled + capped + plated); state it on the fab drawing or solder wicks into the barrel"
+ },
+ "improvement_gate": {
+  "lost": [],
+  "gained": [
+   "ADC_P"
+  ],
+  "worsened": [],
+  "disconnected_pads_before": 3,
+  "disconnected_pads_after": 2,
+  "nets_compared": 17,
+  "verdict": "accept"
+ }
+}

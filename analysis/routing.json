@@ -1,0 +1,166 @@
+{
+ "routed_single": [
+  "ADC_P",
+  "PULLUP_SCL",
+  "PULLUP_SDA",
+  "AFE_READY",
+  "+5V_IN",
+  "PH_VOCM",
+  "PH_VCM",
+  "PH_VOUT",
+  "ADC_N",
+  "ADC_DRDY_N",
+  "+3V3_A",
+  "I2C_SCL",
+  "I2C_SDA",
+  "REF_2V048"
+ ],
+ "failed_single": [],
+ "open_single": [],
+ "failed_multipoint": [],
+ "multipoint_nets": 12,
+ "multipoint_pads_connected": 65,
+ "multipoint_pads_total": 65,
+ "multipoint_edges_routed": 49,
+ "multipoint_edges_failed": 2,
+ "ripup_success_pairs": [],
+ "rerouted_pairs": [],
+ "single_ended_target_swaps": [],
+ "layer_swaps": 0,
+ "successful": 14,
+ "failed": 0,
+ "total_time": 0.17,
+ "total_iterations": 420335,
+ "total_vias": 26,
+ "cleanup_disconnected": [],
+ "min_clearance_used": 0.2,
+ "design_rules": {
+  "escalation_policy": "off",
+  "fab_tier": "standard",
+  "board_floors": {
+   "clearance": 0.2,
+   "track_width": 0.2,
+   "via_diameter": 0.6,
+   "via_drill": 0.3,
+   "hole_to_hole": 0.25,
+   "annular": 0.15,
+   "board_edge": 0.3
+  },
+  "count": 0,
+  "nets": [],
+  "narrowed": [],
+  "min_delivered": {},
+  "fab_tier_escalations": 0,
+  "fab_tier_contexts": [],
+  "fab_tier_target": "advanced",
+  "unsupported_rules": [
+   "Exposed guard mask window"
+  ]
+ },
+ "plane_fragility": {
+  "source": "kicad_refill",
+  "islands": 2,
+  "refill_status": "ok",
+  "why": "the KiCad refill succeeded",
+  "machine_dependent": false
+ },
+ "rescue": {
+  "attempted": 1,
+  "recovered": [
+   "PH_VCM"
+  ],
+  "improved": [],
+  "unchanged": [],
+  "pads_reconnected": 1,
+  "widths": {
+   "PH_VCM": {
+    "requested_mm": 0.2,
+    "delivered_mm": 0.2,
+    "rescue_min_mm": 0.2,
+    "rescue_max_mm": 0.2,
+    "rescue_segments_emitted": 1,
+    "rescue_by_width": {
+     "0.2": 1
+    },
+    "scope": "THIS RESCUE ONLY -- not the net. Counts are as EMITTED, before cycle-prune drops redundant loop segments, so the board can carry fewer. For the net's whole width profile, measure the board."
+   }
+  },
+  "time": 0.17
+ },
+ "oracle_check": "disabled",
+ "protected_skipped": {
+  "pre-existing rip candidacy": {
+   "PH_IN": "locked",
+   "PH_GUARD": "locked"
+  }
+ },
+ "pad_pairs_connected": 55,
+ "pad_pairs_total": 55,
+ "net_keepouts": [],
+ "scope": "merged",
+ "env_knobs": {
+  "KICAD_CLI": "/Users/hector/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli"
+ },
+ "oracle_reconnect": {
+  "available": true,
+  "reason": "ok",
+  "why": "the oracle ran",
+  "rounds": 1,
+  "links_routed": 1,
+  "links_failed": 0,
+  "remaining": 0
+ },
+ "regrade": {
+  "board": "file",
+  "graded_nets": 15,
+  "seconds": 0.09,
+  "unowned_broken": [],
+  "recovered": [],
+  "broken_by_run": []
+ },
+ "via_in_pad": {
+  "count": 2,
+  "sites": [
+   "C4.2 F.Paste (pad)",
+   "C7.2 F.Paste (pad)"
+  ],
+  "stamped": 1,
+  "restored": 0,
+  "protected": 0,
+  "unstampable": 0,
+  "site_created": 0,
+  "unprotected": [
+   {
+    "site": "C7.2 F.Paste (pad)",
+    "x": 134.0,
+    "y": 122.0,
+    "why": "at the spot of an input via, kept as the input had it"
+   }
+  ],
+  "note": "via-in-pad requires IPC-4761 Type VII (filled + capped + plated); state it on the fab drawing or solder wicks into the barrel"
+ },
+ "improvement_gate": {
+  "lost": [],
+  "gained": [
+   "+3V3_A",
+   "+5V_IN",
+   "ADC_DRDY_N",
+   "ADC_N",
+   "ADC_P",
+   "AFE_READY",
+   "I2C_SCL",
+   "I2C_SDA",
+   "PH_VCM",
+   "PH_VOCM",
+   "PH_VOUT",
+   "PULLUP_SCL",
+   "PULLUP_SDA",
+   "REF_2V048"
+  ],
+  "worsened": [],
+  "disconnected_pads_before": 52,
+  "disconnected_pads_after": 0,
+  "nets_compared": 17,
+  "verdict": "accept"
+ }
+}

@@ -1,0 +1,5 @@
+#VRML V2.0 utf8
+# DRAWING ENVELOPE ONLY - not vendor CAD; see docs/implementation/decisions.md
+Transform { translation 0.0 2.401575 3.370079 children [ Shape { appearance Appearance { material Material { diffuseColor .9 .9 .84 } } geometry Box { size 5.708661 5.708661 6.141732 } } ] }
+Transform { translation 0.0 9.055118 3.220472 children [ Shape { appearance Appearance { material Material { diffuseColor .65 .67 .69 } } geometry Cylinder { radius 2.5255905511811023 height 8.228346456692913 } } ] }
+Transform { translation 0.0 13.181102 3.220472 children [ Shape { appearance Appearance { material Material { diffuseColor .12 .12 .12 } } geometry Cylinder { radius 1.8503937007874016 height 0.01968503937007874 } } ] }

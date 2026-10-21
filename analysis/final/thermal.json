@@ -1,0 +1,87 @@
+{
+  "analyzer_type": "thermal",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "analysis/final/schematic.json",
+      "analysis/final/pcb.json"
+    ],
+    "source_hashes": {
+      "analysis/final/schematic.json": "f0605bf7697b8c4e09724a25a8d61fd082d5b9c2d696c200f7bd8a225dbad738",
+      "analysis/final/pcb.json": "c77463c2eb420f95243f8907745895ba3ce867071742e51ae4a0399315b2b8da"
+    },
+    "run_id": "20261021T141244Z-e0e7ba",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "analysis/final/schematic.json",
+        "sha256": "f0605bf7697b8c4e09724a25a8d61fd082d5b9c2d696c200f7bd8a225dbad738",
+        "schema_version": "1.4.0",
+        "run_id": "20261021T141244Z-e0e7ba"
+      },
+      "pcb": {
+        "path": "analysis/final/pcb.json",
+        "sha256": "c77463c2eb420f95243f8907745895ba3ce867071742e51ae4a0399315b2b8da",
+        "schema_version": "1.4.0",
+        "run_id": "20261021T141244Z-e0e7ba"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "summary": {
+    "total_findings": 0,
+    "components_assessed": 0,
+    "components_skipped": 1,
+    "active": 0,
+    "suppressed": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "thermal_score": null,
+    "skipped_reason": "No components had quantifiable power dissipation data (missing MPNs or no datasheet extraction cache)",
+    "total_board_dissipation_w": 0,
+    "components_analyzed": 0,
+    "components_above_85c": 0,
+    "components_above_tjmax": 0,
+    "ambient_c": 25.0
+  },
+  "findings": [],
+  "assessments": [],
+  "elapsed_s": 0.0,
+  "skipped_components": [
+    {
+      "ref": "U4",
+      "value": "TPS7A2033 / 3.3V",
+      "reason": "no_pdiss_estimate"
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261021T141244Z-e0e7ba"
+  }
+}

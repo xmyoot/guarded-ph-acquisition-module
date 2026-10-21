@@ -1,0 +1,180 @@
+{
+  "mpn": "ADS112C04IPWR",
+  "manufacturer": "Texas Instruments",
+  "category": "adc",
+  "package": "TSSOP-16 PW",
+  "description": "ADS112C04",
+  "topology": "adc",
+  "pins": [
+    {
+      "number": "1",
+      "name": "A0",
+      "type": "digital",
+      "description": "ADS112C04 manufacturer pin function table p3; A0",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "2",
+      "name": "A1",
+      "type": "digital",
+      "description": "ADS112C04 manufacturer pin function table p3; A1",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "3",
+      "name": "RESET",
+      "type": "digital",
+      "description": "ADS112C04 manufacturer pin function table p3; RESET",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "4",
+      "name": "DGND",
+      "type": "ground",
+      "description": "ADS112C04 manufacturer pin function table p3; DGND",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "5",
+      "name": "AVSS",
+      "type": "ground",
+      "description": "ADS112C04 manufacturer pin function table p3; AVSS",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "6",
+      "name": "AIN3",
+      "type": "analog",
+      "description": "ADS112C04 manufacturer pin function table p3; AIN3",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "7",
+      "name": "AIN2",
+      "type": "analog",
+      "description": "ADS112C04 manufacturer pin function table p3; AIN2",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "8",
+      "name": "REFN",
+      "type": "analog",
+      "description": "ADS112C04 manufacturer pin function table p3; REFN",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "9",
+      "name": "REFP",
+      "type": "analog",
+      "description": "ADS112C04 manufacturer pin function table p3; REFP",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "10",
+      "name": "AIN1",
+      "type": "analog",
+      "description": "ADS112C04 manufacturer pin function table p3; AIN1",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "11",
+      "name": "AIN0",
+      "type": "analog",
+      "description": "ADS112C04 manufacturer pin function table p3; AIN0",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "12",
+      "name": "AVDD",
+      "type": "power",
+      "description": "ADS112C04 manufacturer pin function table p3; AVDD",
+      "direction": "input",
+      "required_external": null
+    },
+    {
+      "number": "13",
+      "name": "DVDD",
+      "type": "power",
+      "description": "ADS112C04 manufacturer pin function table p3; DVDD",
+      "direction": "input",
+      "required_external": null
+    },
+    {
+      "number": "14",
+      "name": "DRDY",
+      "type": "digital",
+      "description": "ADS112C04 manufacturer pin function table p3; DRDY",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "15",
+      "name": "SDA",
+      "type": "digital",
+      "description": "ADS112C04 manufacturer pin function table p3; SDA",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "16",
+      "name": "SCL",
+      "type": "digital",
+      "description": "ADS112C04 manufacturer pin function table p3; SCL",
+      "direction": null,
+      "required_external": null
+    }
+  ],
+  "absolute_maximum_ratings": {
+    "vin_max_v": 7,
+    "junction_temp_max_c": 150
+  },
+  "recommended_operating_conditions": {
+    "vin_min_v": 2.3,
+    "vin_max_v": 5.5,
+    "temp_min_c": -40,
+    "temp_max_c": 125
+  },
+  "electrical_characteristics": {
+    "resolution_bits": 16,
+    "external_reference_min_v": 0.75
+  },
+  "application_circuit": {
+    "notes": "100nF on each supply; pullup SDA,SCL,DRDY; sections 8.5,8.6 and 11",
+    "source_section": "See pin table and application/layout sections in archived PDF"
+  },
+  "extraction_metadata": {
+    "source_pdf": "ADS112C04.pdf",
+    "method": "Manual transcription; partial facts; manufacturer PDF is authoritative",
+    "pin_table_page": 3,
+    "quality": {
+      "total": 8.2,
+      "pin_coverage": 10.0,
+      "voltage_ratings": 10.0,
+      "application_info": 5.0,
+      "electrical_characteristics": 7.0,
+      "spice_specs": 5.0,
+      "issues": [
+        "Missing circuit topology",
+        "No component recommendations",
+        "No spice_specs section (could derive from electrical_characteristics)"
+      ],
+      "sufficient": true
+    },
+    "extraction_score": 8.2,
+    "source_pdf_hash": "sha256:989f34cb2cbc747672bc13424af4aa1ed8d895c043a0d858a86ec7acdd940f3b",
+    "extraction_date": "2026-10-20T19:08:51.198426+00:00",
+    "extraction_version": 2,
+    "retry_count": 0
+  }
+}

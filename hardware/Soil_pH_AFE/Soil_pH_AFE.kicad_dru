@@ -1,0 +1,10 @@
+(version 1)
+# Intended exposed input/guard window, per TI LMP91200 layout guidance.
+# This exception affects solder mask only; electrical clearance remains 0.20mm.
+(rule "Exposed guard mask window"
+ (constraint bridged_mask)
+ (condition "(A.Layer == 'F.Mask' || A.Layer == 'B.Mask') && A.Position_X == 110.1mm && A.Position_Y == 115.15mm")
+ (severity ignore))
+(rule "No foreign tracks in high impedance cell"
+ (condition "A.intersectsArea('guard_cell') && A.NetName != 'PH_IN' && A.NetName != 'PH_GUARD'")
+ (constraint disallow track via))

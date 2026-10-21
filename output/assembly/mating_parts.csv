@@ -1,0 +1,5 @@
+Qty,Manufacturer,MPN,Use
+1,JST,PHR-6,Host cable housing
+5,JST,SPH-002T-P0.5S,"Contacts, suitable wire per JST drawing; pin6 left empty"
+1,External,ESP32-S3 development board,"Host, USB power separate; default GPIO8/9"
+1,External,Passive combination pH probe with BNC,"Validate polarity, leakage and physical fit"

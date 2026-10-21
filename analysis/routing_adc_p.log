@@ -1,0 +1,77 @@
+CMD: Python /Users/hector/Documents/KiCAD_Projects/ESP32_C6_EPaperDisplayDriver/tools/KiCadRoutingTools/py_router/route.py hardware/Soil_pH_AFE/Soil_pH_AFE_analog_repair.kicad_pcb hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_pcb --nets ADC_P --layers F.Cu B.Cu --track-width 0.2 --clearance 0.2 --via-size 0.6 --via-drill 0.3 --same-net-pad-clearance 0.2 --escalation off --no-fix-drc-settings --strict-sizes --keep-input-copper --json-out analysis/routing_adc_p.json
+ENV KNOBS: KICAD_CLI=/Users/hector/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
+--clearance 0.2: the Default net class routes at it this run; other classes are honoured (pass --clearance-ceiling to cap every class).
+--hole-to-hole-clearance not given; using 0.25mm [board constraint].
+--board-edge-clearance not given; using 0.3mm [board constraint].
+Loading hardware/Soil_pH_AFE/Soil_pH_AFE_analog_repair.kicad_pcb to expand net patterns...
+NOTE: Soil_pH_AFE_analog_repair.kicad_pcb is written on one line; read in KiCad's multi-line layout.
+Routing 1 nets: ['ADC_P']
+Loading hardware/Soil_pH_AFE/Soil_pH_AFE_analog_repair.kicad_pcb...
+NOTE: Soil_pH_AFE_analog_repair.kicad_pcb is written on one line; read in KiCad's multi-line layout.
+Using 2 routing layers: ['F.Cu', 'B.Cu']
+  Layer costs: F.Cu=1.0x, B.Cu=3.0x
+No BGA components detected - no exclusion zones needed
+Same-net pad via clearance 0.2mm (from flag, #581): vias stay off same-net pads
+  .kicad_dru rule 'No foreign tracks in high impedance cell': honoured as a net-filtered keep-out: 20 of 22 net(s) kept out of 'guard_cell' (tracks, vias)
+  .kicad_dru rule 'Exposed guard mask window': NOT honoured (severity ignore); KiCad will still enforce it
+
+Using MPS ordering strategy...
+MPS: Using segment intersection method (no nets on BGA chips)
+MPS: 1 nets with 0 crossing conflicts detected
+MPS Round 1: 1 units: ADC_P
+
+Routing 1 single-ended net(s)...
+============================================================
+Building base obstacle map...
+  5 PROTECTED net(s) excluded from pre-existing rip candidacy (Manual analog route; locked copper; do not target: PH_VCM, PH_VOCM; locked: REF_2V048, PH_IN, PH_GUARD) -- name a net exactly (no glob) to override all but 'locked'; KiCad-locked copper has no override; unlock it in the board
+7 unprotected pre-existing net(s) registered as main-pass rip candidates (<=30 seg/<=6 via, custody-backed; KICAD_RIP_PREEXISTING=0 disables)
+Pour guard (#1260): GND_A pour on B.Cu: islands left crossable -- 1 hold a routed net's terminal
+Pour guard (#1260): GND_A pour on F.Cu is outside this run's nets, and no routed net has a pad inside 2 of its island(s) (38.4 mm^2) -- blocked, so no track cuts them (KICAD_POUR_GUARD=0 reverts)
+Pour guard (#1260): GND_A pour on F.Cu: islands left crossable -- 2 hold a routed net's terminal
+Base obstacle map built in 1.81s
+Found 17 unrouted nets in PCB for stub proximity
+Pre-computing net obstacle cache...
+Net obstacle cache built in 0.02s (17 nets)
+Plane fragility: exact-fill geometry (5 filled island(s) from KiCad refill)
+Plane fragility field: 117690 cells near the edges of 2 pour(s) (KICAD_PLANE_FRAGILITY_COST=2.0mm-equiv, DYNAMIC #466 (=0 via KICAD_PLANE_FRAGILITY_DYNAMIC reverts))
+History congestion (#590) armed: +0.1mm-equiv per contest, cap 0.5, escalate 0.0, rip weight 1.0 (radius +0.25mm), frontier weight 0.25
+
+[1/1] Routing ADC_P (id=12)
+  SUCCESS: 7 segments, 1 vias, 4874 iterations, length=11.69mm (stubs=6.36mm) (0.02s)
+
+Sync pcb_data: 340 -> 333 (kept stubs) -> 340 (after adding 7)
+Cycle prune: removed 2 redundant loop segment(s) across 1 net(s)
+
+WARNING: 3 stacked-copper finding(s) on the write model (same-net duplicates KiCad will not flag):
+  GND_A F.Cu: 2 duplicate segments stacked on (132.863, 114.875)-(132.900, 114.900)
+  GND_A F.Cu: 2 duplicate segments stacked on (132.863, 115.525)-(132.900, 115.500)
+  GND_A F.Cu: 2 duplicate segments stacked on (134.100, 116.200)-(134.200, 116.100)
+
+============================================================
+Routing complete
+============================================================
+  Single-ended:  1/1 routed
+  Total vias:    1
+  Total time:    0.02s
+  Iterations:    4,874
+  Fragility refresh (#466): 2 windows, 0.03s total
+JSON_SUMMARY: {"routed_single": ["ADC_P"], "failed_single": [], "open_single": [], "failed_multipoint": [], "multipoint_nets": 0, "multipoint_pads_connected": 0, "multipoint_pads_total": 0, "multipoint_edges_routed": 0, "multipoint_edges_failed": 0, "ripup_success_pairs": [], "rerouted_pairs": [], "single_ended_target_swaps": [], "layer_swaps": 0, "successful": 1, "failed": 0, "total_time": 0.02, "total_iterations": 4874, "total_vias": 1, "cleanup_disconnected": [], "min_clearance_used": 0.2, "design_rules": {"escalation_policy": "off", "fab_tier": "auto", "board_floors": {"clearance": 0.2, "track_width": 0.2, "via_diameter": 0.6, "via_drill": 0.3, "hole_to_hole": 0.25, "annular": 0.15, "board_edge": 0.3}, "count": 0, "nets": [], "narrowed": [], "min_delivered": {}, "fab_tier_escalations": 0, "fab_tier_contexts": [], "fab_tier_target": "advanced", "unsupported_rules": ["Exposed guard mask window"]}, "plane_fragility": {"source": "kicad_refill", "islands": 5, "refill_status": "ok", "why": "the KiCad refill succeeded (memo hit)", "machine_dependent": false}, "pour_guard": {"source": "kicad_refill", "why": "", "pours": [{"net": "GND_A", "layer": "B.Cu", "blocked_islands": 0, "blocked_mm2": 0, "crossable_islands": 1, "minor_islands": 0}, {"net": "GND_A", "layer": "F.Cu", "blocked_islands": 2, "blocked_mm2": 38.4, "crossable_islands": 2, "minor_islands": 0}]}, "stacked_copper": [{"category": "stacked-copper", "net": "GND_A", "layer": "F.Cu", "x": 132.863, "y": 114.875, "detail": "2 duplicate segments stacked on (132.863, 114.875)-(132.900, 114.900)", "size": 0.04465422712354048}, {"category": "stacked-copper", "net": "GND_A", "layer": "F.Cu", "x": 132.863, "y": 115.525, "detail": "2 duplicate segments stacked on (132.863, 115.525)-(132.900, 115.500)", "size": 0.04465422712354048}, {"category": "stacked-copper", "net": "GND_A", "layer": "F.Cu", "x": 134.1, "y": 116.2, "detail": "2 duplicate segments stacked on (134.100, 116.200)-(134.200, 116.100)", "size": 0.1414213562373115}], "oracle_check": "disabled", "protected_skipped": {"pre-existing rip candidacy": {"REF_2V048": "locked", "PH_VCM": "Manual analog route; locked copper; do not target", "PH_IN": "locked", "PH_GUARD": "locked", "PH_VOCM": "Manual analog route; locked copper; do not target"}}, "pad_pairs_connected": 2, "pad_pairs_total": 2, "net_keepouts": [], "scope": "run", "env_knobs": {"KICAD_CLI": "/Users/hector/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli"}}
+
+Writing output to hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_pcb...
+Successfully wrote hardware/Soil_pH_AFE/Soil_pH_AFE.kicad_pcb
+  Plane finalize: zone net(s) GND_A are OUTSIDE this route's --nets scope -- excluded from the finalize BY PLAN. Since #562 a pour alone connects nothing: unless a later route step covers these nets, their pads ship disconnected.
+  Strict collapse (#1063, end of run): removed 2 redundant segment(s) on 1 net(s)
+VIA_IN_PAD_JSON: {"count": 0, "sites": [], "stamped": 0, "restored": 0, "protected": 0, "unstampable": 0, "site_created": 0, "unprotected": [], "note": "via-in-pad requires IPC-4761 Type VII (filled + capped + plated); state it on the fab drawing or solder wicks into the barrel"}
+JSON_REGRADE: {"board": "file", "graded_nets": 1, "seconds": 0.06, "routed_single": ["ADC_P"], "failed_single": [], "open_single": [], "failed_multipoint": [], "multipoint_pads_total": 3, "multipoint_pads_connected": 3, "successful": 1, "failed": 0, "unowned_broken": [], "recovered": [], "broken_by_run": []}
+
+============================================================
+Run complete -- whole run, re-graded on the written board (1 net(s), 0.1s)
+============================================================
+  Single-ended:  1/1 routed
+  Multi-point:   3/3 pads connected
+  Net-filtered keep-outs: no bound-net copper inside a region on the shipped board
+  route summary written to analysis/routing_adc_p.json
+NOTE: Soil_pH_AFE_analog_repair.kicad_pcb is written on one line; read in KiCad's multi-line layout.
+JSON_IMPROVEMENT_GATE: {"lost": [], "gained": ["ADC_P"], "worsened": [], "disconnected_pads_before": 3, "disconnected_pads_after": 2, "nets_compared": 17, "verdict": "accept"}
+JSON_SUMMARY_MIN: {"escalations": 0, "failed": 0, "failed_single": [], "finalize_excluded_nets": ["GND_A"], "main_loop_time_s": 0.02, "min_clearance_used": 0.2, "multipoint_deficit": 0, "open_single": [], "pad_pairs_open": {"count": 0, "nets": []}, "regraded_nets": 1, "routed": 1, "scope": "merged", "terminal_restores_broken": [], "vias": 1}
+EXIT=0

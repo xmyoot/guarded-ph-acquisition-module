@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "last_updated": "2026-10-20T12:08:51-07:00",
+  "extractions": {
+    "LMP91200MTX_NOPB_01a3d6": {
+      "file": "LMP91200MTX_NOPB_01a3d6.json",
+      "mpn": "LMP91200MTX/NOPB",
+      "category": "sensor",
+      "source_pdf": "LMP91200.pdf",
+      "source_pdf_hash": "sha256:5507852d9aeb764901ba52a75a409de78ca270501d2fb5b94e502220ed20b170",
+      "extraction_date": "2026-10-20T19:08:51.193776+00:00",
+      "extraction_score": 8.2,
+      "extraction_version": 2,
+      "pin_count": 16
+    },
+    "ADS112C04IPWR_f341df": {
+      "file": "ADS112C04IPWR_f341df.json",
+      "mpn": "ADS112C04IPWR",
+      "category": "adc",
+      "source_pdf": "ADS112C04.pdf",
+      "source_pdf_hash": "sha256:989f34cb2cbc747672bc13424af4aa1ed8d895c043a0d858a86ec7acdd940f3b",
+      "extraction_date": "2026-10-20T19:08:51.198426+00:00",
+      "extraction_score": 8.2,
+      "extraction_version": 2,
+      "pin_count": 16
+    },
+    "REF3220AIDBVT_0d988d": {
+      "file": "REF3220AIDBVT_0d988d.json",
+      "mpn": "REF3220AIDBVT",
+      "category": "voltage_reference",
+      "source_pdf": "REF3220.pdf",
+      "source_pdf_hash": "sha256:c1c8c40221e4d282c0c759639bf5d3694d518fcd8bda86de747859579b82f175",
+      "extraction_date": "2026-10-20T19:08:51.201177+00:00",
+      "extraction_score": 8.1,
+      "extraction_version": 2,
+      "pin_count": 6
+    },
+    "TPS7A2033PDBVR_9cca7b": {
+      "file": "TPS7A2033PDBVR_9cca7b.json",
+      "mpn": "TPS7A2033PDBVR",
+      "category": "linear_regulator",
+      "source_pdf": "TPS7A20.pdf",
+      "source_pdf_hash": "sha256:b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+      "extraction_date": "2026-10-20T19:08:51.209402+00:00",
+      "extraction_score": 8.5,
+      "extraction_version": 2,
+      "pin_count": 5
+    },
+    "TPS3839K33DBZT_0e49c7": {
+      "file": "TPS3839K33DBZT_0e49c7.json",
+      "mpn": "TPS3839K33DBZT",
+      "category": "power_management",
+      "source_pdf": "TPS3839.pdf",
+      "source_pdf_hash": "sha256:a18940237afc63cf6d1a0bb5e1c8c0b2c3274e01c47fa5f27e470a005072621b",
+      "extraction_date": "2026-10-20T19:08:51.211703+00:00",
+      "extraction_score": 8.5,
+      "extraction_version": 2,
+      "pin_count": 3
+    }
+  }
+}

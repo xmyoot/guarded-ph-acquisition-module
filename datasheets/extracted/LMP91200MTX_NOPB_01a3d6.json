@@ -1,0 +1,179 @@
+{
+  "mpn": "LMP91200MTX/NOPB",
+  "manufacturer": "Texas Instruments",
+  "category": "sensor",
+  "package": "TSSOP-16 PW",
+  "description": "LMP91200",
+  "topology": "other",
+  "pins": [
+    {
+      "number": "1",
+      "name": "VDD",
+      "type": "power",
+      "description": "LMP91200 manufacturer pin function table p3; VDD",
+      "direction": "input",
+      "required_external": null
+    },
+    {
+      "number": "2",
+      "name": "NC",
+      "type": "no_connect",
+      "description": "LMP91200 manufacturer pin function table p3; NC",
+      "direction": "passive",
+      "required_external": "Do not connect"
+    },
+    {
+      "number": "3",
+      "name": "NC",
+      "type": "no_connect",
+      "description": "LMP91200 manufacturer pin function table p3; NC",
+      "direction": "passive",
+      "required_external": "Do not connect"
+    },
+    {
+      "number": "4",
+      "name": "GUARD1",
+      "type": "analog",
+      "description": "LMP91200 manufacturer pin function table p3; GUARD1",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "5",
+      "name": "INP",
+      "type": "analog",
+      "description": "LMP91200 manufacturer pin function table p3; INP",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "6",
+      "name": "GUARD2",
+      "type": "analog",
+      "description": "LMP91200 manufacturer pin function table p3; GUARD2",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "7",
+      "name": "VCMHI",
+      "type": "analog",
+      "description": "LMP91200 manufacturer pin function table p3; VCMHI",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "8",
+      "name": "VCM",
+      "type": "analog",
+      "description": "LMP91200 manufacturer pin function table p3; VCM",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "9",
+      "name": "VREF",
+      "type": "analog",
+      "description": "LMP91200 manufacturer pin function table p3; VREF",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "10",
+      "name": "GND",
+      "type": "ground",
+      "description": "LMP91200 manufacturer pin function table p3; GND",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "11",
+      "name": "VOCM",
+      "type": "analog",
+      "description": "LMP91200 manufacturer pin function table p3; VOCM",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "12",
+      "name": "VOUT",
+      "type": "analog",
+      "description": "LMP91200 manufacturer pin function table p3; VOUT",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "13",
+      "name": "GND",
+      "type": "ground",
+      "description": "LMP91200 manufacturer pin function table p3; GND",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "14",
+      "name": "VDD",
+      "type": "power",
+      "description": "LMP91200 manufacturer pin function table p3; VDD",
+      "direction": "input",
+      "required_external": null
+    },
+    {
+      "number": "15",
+      "name": "GND",
+      "type": "ground",
+      "description": "LMP91200 manufacturer pin function table p3; GND",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "16",
+      "name": "GND",
+      "type": "ground",
+      "description": "LMP91200 manufacturer pin function table p3; GND",
+      "direction": "passive",
+      "required_external": null
+    }
+  ],
+  "absolute_maximum_ratings": {
+    "vin_max_v": 6,
+    "junction_temp_max_c": 150
+  },
+  "recommended_operating_conditions": {
+    "vin_min_v": 1.8,
+    "vin_max_v": 5.5,
+    "temp_min_c": -40,
+    "temp_max_c": 125
+  },
+  "electrical_characteristics": {
+    "input_bias_fa_25C_max": 125
+  },
+  "application_circuit": {
+    "notes": "VDD bypass: 10uF,1uF,100nF; both guards; no connection NC pins; see sections 8-10",
+    "source_section": "See pin table and application/layout sections in archived PDF"
+  },
+  "extraction_metadata": {
+    "source_pdf": "LMP91200.pdf",
+    "method": "Manual transcription; partial facts; manufacturer PDF is authoritative",
+    "pin_table_page": 3,
+    "quality": {
+      "total": 8.2,
+      "pin_coverage": 10.0,
+      "voltage_ratings": 10.0,
+      "application_info": 5.0,
+      "electrical_characteristics": 7.0,
+      "spice_specs": 5.0,
+      "issues": [
+        "Missing circuit topology",
+        "No component recommendations",
+        "No spice_specs section (could derive from electrical_characteristics)"
+      ],
+      "sufficient": true
+    },
+    "extraction_score": 8.2,
+    "source_pdf_hash": "sha256:5507852d9aeb764901ba52a75a409de78ca270501d2fb5b94e502220ed20b170",
+    "extraction_date": "2026-10-20T19:08:51.193776+00:00",
+    "extraction_version": 2,
+    "retry_count": 0
+  }
+}

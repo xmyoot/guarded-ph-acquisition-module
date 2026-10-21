@@ -1,0 +1,21 @@
+# Keep selected final evidence; intermediate exploratory outputs remain local.
+*
+!.gitignore
+!manifest.json
+!final/
+!final/**
+!native/
+!native/erc.rpt
+!native/drc.rpt
+!native/Soil_pH_AFE.net
+!connectivity_and_geometry.json
+!deep_review.json
+!firmware_build.log
+!routing.log
+!routing.json
+!routing_adc_p.log
+!routing_adc_p.json
+!routing_adc_n.log
+!routing_adc_n.json
+!stages/
+!stages/Soil_pH_AFE_placed.kicad_pcb

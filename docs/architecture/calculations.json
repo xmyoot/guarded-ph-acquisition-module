@@ -1,0 +1,43 @@
+{
+  "status": "calculated proposal; not measured or simulated",
+  "input_assumptions": {
+    "reference_V": 2.048,
+    "adc_total_gain": 2,
+    "signal_envelope_V": [
+      -0.6,
+      0.6
+    ],
+    "common_mode_uncertainty_allocation_V": 0.01,
+    "analog_rail_tolerance_fraction": 0.015,
+    "probe_resistance_ohm": 1000000000.0
+  },
+  "reference_VCM_V": 1.024,
+  "rail_min_V": 3.2504999999999997,
+  "ain_range_including_allocation_V": [
+    0.41400000000000003,
+    1.6340000000000001
+  ],
+  "adc_equation_6_limits_V": [
+    0.2,
+    3.0504999999999995
+  ],
+  "adc_lower_margin_V": 0.21400000000000002,
+  "adc_upper_margin_V": 1.4164999999999994,
+  "lmp_300mV_characterization_lower_margin_V": 0.11400000000000005,
+  "differential_full_scale_V": 1.024,
+  "differential_range_margin_V": 0.42400000000000004,
+  "adc_LSB_V": 3.125e-05,
+  "adc_LSB_pH_equivalent_25C": 0.0005282285327924273,
+  "nominal_code_at_600mV": 19200.0,
+  "filter_pole_Hz": 7957.747154594768,
+  "I2C_rise_time_100pF_ns": 398.23100000000005,
+  "I2C_rise_time_200pF_ns": 796.4620000000001,
+  "bias_error_at_125fA_1Gohm_V": 0.000125,
+  "bias_error_pH_equivalent_25C": 0.0021129141311697092,
+  "board_leakage_allocation_error_V": 0.0001,
+  "reference_initial_error_at_600mV_V": 0.0012,
+  "reference_initial_error_pH_equivalent_25C": 0.02028397565922921,
+  "insulation_for_1V_100fA_ohm": 10000000000000.0,
+  "LDO_power_at_allocated_10mA_W": 0.017,
+  "electronics_0p01pH_objective_V": 0.0005916
+}

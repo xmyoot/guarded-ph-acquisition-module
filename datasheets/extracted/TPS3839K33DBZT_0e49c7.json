@@ -1,0 +1,77 @@
+{
+  "mpn": "TPS3839K33DBZT",
+  "manufacturer": "Texas Instruments",
+  "category": "power_management",
+  "package": "SOT23-3 DBZ",
+  "description": "TPS3839",
+  "topology": "other",
+  "pins": [
+    {
+      "number": "1",
+      "name": "GND",
+      "type": "ground",
+      "description": "TPS3839 manufacturer pin function table p5; GND",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "2",
+      "name": "RESET",
+      "type": "digital",
+      "description": "TPS3839 manufacturer pin function table p5; RESET",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "3",
+      "name": "VDD",
+      "type": "power",
+      "description": "TPS3839 manufacturer pin function table p5; VDD",
+      "direction": "input",
+      "required_external": null
+    }
+  ],
+  "absolute_maximum_ratings": {
+    "vin_max_v": 7,
+    "junction_temp_max_c": 85
+  },
+  "recommended_operating_conditions": {
+    "vin_min_v": 0.9,
+    "vin_max_v": 6.5,
+    "temp_min_c": -40,
+    "temp_max_c": 85
+  },
+  "electrical_characteristics": {
+    "threshold_typ_v": 2.93,
+    "reset_delay_min_ms": 120,
+    "reset_delay_max_ms": 350
+  },
+  "application_circuit": {
+    "notes": "0.1uF VDD bypass; reset push-pull; pin functions p5, timing p8",
+    "source_section": "See pin table and application/layout sections in archived PDF"
+  },
+  "extraction_metadata": {
+    "source_pdf": "TPS3839.pdf",
+    "method": "Manual transcription; partial facts; manufacturer PDF is authoritative",
+    "pin_table_page": 5,
+    "quality": {
+      "total": 8.5,
+      "pin_coverage": 10.0,
+      "voltage_ratings": 10.0,
+      "application_info": 5.0,
+      "electrical_characteristics": 10.0,
+      "spice_specs": 5.0,
+      "issues": [
+        "Missing circuit topology",
+        "No component recommendations",
+        "No spice_specs section (could derive from electrical_characteristics)"
+      ],
+      "sufficient": true
+    },
+    "extraction_score": 8.5,
+    "source_pdf_hash": "sha256:a18940237afc63cf6d1a0bb5e1c8c0b2c3274e01c47fa5f27e470a005072621b",
+    "extraction_date": "2026-10-20T19:08:51.211703+00:00",
+    "extraction_version": 2,
+    "retry_count": 0
+  }
+}

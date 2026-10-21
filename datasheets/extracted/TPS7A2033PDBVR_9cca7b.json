@@ -1,0 +1,94 @@
+{
+  "mpn": "TPS7A2033PDBVR",
+  "manufacturer": "Texas Instruments",
+  "category": "linear_regulator",
+  "package": "SOT23-5 DBV",
+  "description": "TPS7A20",
+  "topology": "ldo",
+  "pins": [
+    {
+      "number": "1",
+      "name": "IN",
+      "type": "power",
+      "description": "TPS7A20 manufacturer pin function table p4; IN",
+      "direction": "input",
+      "required_external": null
+    },
+    {
+      "number": "2",
+      "name": "GND",
+      "type": "ground",
+      "description": "TPS7A20 manufacturer pin function table p4; GND",
+      "direction": "passive",
+      "required_external": null
+    },
+    {
+      "number": "3",
+      "name": "EN",
+      "type": "digital",
+      "description": "TPS7A20 manufacturer pin function table p4; EN",
+      "direction": null,
+      "required_external": null
+    },
+    {
+      "number": "4",
+      "name": "NC",
+      "type": "no_connect",
+      "description": "TPS7A20 manufacturer pin function table p4; NC",
+      "direction": "passive",
+      "required_external": "Do not connect"
+    },
+    {
+      "number": "5",
+      "name": "OUT",
+      "type": "analog",
+      "description": "TPS7A20 manufacturer pin function table p4; OUT",
+      "direction": null,
+      "required_external": null
+    }
+  ],
+  "absolute_maximum_ratings": {
+    "vin_max_v": 6.5,
+    "junction_temp_max_c": 150
+  },
+  "recommended_operating_conditions": {
+    "vin_min_v": 1.6,
+    "vin_max_v": 6,
+    "temp_min_c": -40,
+    "temp_max_c": 125
+  },
+  "electrical_characteristics": {
+    "vref_v": 3.3,
+    "quiescent_current_ua": 6.5,
+    "output_current_max_ma": 300,
+    "dropout_mv": 145
+  },
+  "application_circuit": {
+    "notes": "CIN,COUT effective >=1uF; EN to IN for always on; DBV pin table p4",
+    "source_section": "See pin table and application/layout sections in archived PDF"
+  },
+  "extraction_metadata": {
+    "source_pdf": "TPS7A20.pdf",
+    "method": "Manual transcription; partial facts; manufacturer PDF is authoritative",
+    "pin_table_page": 4,
+    "quality": {
+      "total": 8.5,
+      "pin_coverage": 10.0,
+      "voltage_ratings": 10.0,
+      "application_info": 5.0,
+      "electrical_characteristics": 10.0,
+      "spice_specs": 5.0,
+      "issues": [
+        "Missing circuit topology",
+        "No component recommendations",
+        "No spice_specs section (could derive from electrical_characteristics)"
+      ],
+      "sufficient": true
+    },
+    "extraction_score": 8.5,
+    "source_pdf_hash": "sha256:b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+    "extraction_date": "2026-10-20T19:08:51.209402+00:00",
+    "extraction_version": 2,
+    "retry_count": 0
+  }
+}
